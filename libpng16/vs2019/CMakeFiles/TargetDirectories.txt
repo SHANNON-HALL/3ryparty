@@ -1,0 +1,9 @@
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/png16.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/png16_static.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/INSTALL.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/RUN_TESTS.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/pngtest.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/pngvalid.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/pngstest.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/ALL_BUILD.dir
+F:/code/3rdparty/libpng16/vs2019/CMakeFiles/ZERO_CHECK.dir

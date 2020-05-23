@@ -1,0 +1,9 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/test/CMakeLists.txt
+  defer_strile_writing.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_writing.c(145,66): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_writing.c(154,57): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_writing.c(181,69): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_writing.c(204,60): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_writing.c(219,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+  defer_strile_writing.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\test\Release\defer_strile_writing.exe

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\gtiff\libtiff\</FILEPATH>
+      <FILENAME>tif_codec.c</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned short”作为 _Param_(3) 传递，但需要使用一些 signed 类型来调用“sprintf”。</DESCRIPTION>
+    <FUNCTION>_notConfigured</FUNCTION>
+    <DECORATED>_notConfigured</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

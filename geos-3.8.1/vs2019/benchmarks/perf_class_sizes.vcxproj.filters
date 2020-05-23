@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\benchmarks\ClassSizes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\benchmarks\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6FFB9399-413E-36CD-A2F5-56C79056165F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

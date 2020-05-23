@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\giflib-5.2.1\vs2019\CMakeFiles\a7fbe4f690088934c35fcbf725d3e1f9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2B5B983B-7FEC-38ED-ABB4-F0CE8FB49198}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

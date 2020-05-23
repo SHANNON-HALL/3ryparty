@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\gif\giflib\</FILEPATH>
+      <FILENAME>egif_lib.c</FILENAME>
+      <LINE>144</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “setmode”。</DESCRIPTION>
+    <FUNCTION>EGifOpenFileHandle</FUNCTION>
+    <DECORATED>EGifOpenFileHandle</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F1F8F1F-84CF-3D4F-90F3-2E0B2CAA4162}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>test_geos_unit</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_geos_unit.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_geos_unit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_geos_unit.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_geos_unit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_geos_unit.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_geos_unit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_geos_unit.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_geos_unit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\geos_c.lib;..\..\lib\Debug\geos.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/Debug/test_geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/Debug/test_geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\geos_c.lib;..\..\lib\Release\geos.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/Release/test_geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/Release/test_geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\geos_c.lib;..\..\lib\MinSizeRel\geos.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/MinSizeRel/test_geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/MinSizeRel/test_geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\doc;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;F:\code\3rdparty\geos-3.8.1\vs2019\capi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\geos_c.lib;..\..\lib\RelWithDebInfo\geos.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/RelWithDebInfo/test_geos_unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/RelWithDebInfo/test_geos_unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/tests/unit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/tests/unit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/tests/unit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/tests/unit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/tests/unit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\tests\unit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\AngleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\AreaTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\computeOrientationTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\isCCWTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\isPointInRingTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\signedAreaTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\ConvexHullTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\InteriorPointAreaTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\IntersectionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\LengthTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\LocatePointInRingTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\MinimumBoundingCircleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\MinimumDiameterTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\OrientationIndexFailureTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\PointLocatorTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\RobustLineIntersectionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\RobustLineIntersectorTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\distance\DiscreteFrechetDistanceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\distance\DiscreteHausdorffDistanceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSBufferTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSBuildAreaTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSCAPIDefinesTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSClipByRectTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSContainsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSConvexHullTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSCoordSeqTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSCoverageUnionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSDelaunayTriangulationTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSDistanceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSEqualsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSFrechetDistanceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeomFromWKBTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeomToWKTTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_createCollectionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_createTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_extentTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_extractUniquePointsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_setPrecisionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGetCentroidTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSHausdorffDistanceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSInterpolateTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSInterruptTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSIntersectionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSIntersectsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSLineString_PointTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMakeValidTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumBoundingCircleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumClearanceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumRectangleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumWidthTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSNearestPointsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSNodeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSOffsetCurveTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSOrientationIndexTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSPointOnSurfaceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSPolygonizeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSPreparedGeometryTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSRelateBoundaryNodeRuleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSRelatePatternMatchTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSReverseTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSTRtreeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSegmentIntersectionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSharedPathsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSimplifyTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSnapTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSUnaryUnionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSUserDataTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSVoronoiDiagramTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSWithinTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSisClosedTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSisValidDetailTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateArraySequenceFactoryTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateArraySequenceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateListTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\DimensionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\EnvelopeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\FixedSizeCoordinateSequenceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\cloneTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\coversTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\equalsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\isRectangleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\normalizeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\touchesTest.cpp">
+      <ObjectFileName>$(IntDir)/geom/Geometry/touchesTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryCollectionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryComponentFilterTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryFactoryTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryFilterTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\IntersectionMatrixTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LineSegmentTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LineStringTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LinearRingTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LocationTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\MultiLineStringTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\MultiPointTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\MultiPolygonTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\PointTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\PolygonTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\PrecisionModelTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\TriangleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\prep\PreparedGeometry\touchesTest.cpp">
+      <ObjectFileName>$(IntDir)/geom/prep/PreparedGeometry/touchesTest.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\prep\PreparedGeometryFactoryTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\util\GeometryExtracterTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geos_unit.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\index\quadtree\DoubleBitsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\index\strtree\SIRtreeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\ByteOrderValuesTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKBReaderTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKBWriterTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKTReaderTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKTWriterTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WriterTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\linearref\LengthIndexedLineTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\BasicSegmentStringTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\NodedSegmentStringTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\OrientedCoordinateArrayTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\SegmentNodeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\SegmentPointComparatorTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\snapround\HotPixelTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\snapround\MCIndexSnapRounderTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\IsSimpleOpTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\buffer\BufferBuilderTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\buffer\BufferOpTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\buffer\BufferParametersTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\distance\DistanceOpTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\distance\IndexedFacetDistanceTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\geounion\CascadedPolygonUnionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\geounion\CoverageUnionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\geounion\UnaryUnionOpTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\intersection\RectangleIntersectionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\linemerge\LineMergerTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\linemerge\LineSequencerTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\OverlayOpUnionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\snap\GeometrySnapperTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\snap\LineStringSnapperTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\validate\FuzzyPointLocatorTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\validate\OffsetPointGeneratorTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\validate\OverlayResultValidatorTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\polygonize\PolygonizeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\sharedpaths\SharedPathsOpTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\IsValidOpTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\RepeatedPointRemoverTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\ValidClosedRingTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\ValidSelfTouchingRingFormingHoleTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\precision\CommonBitsTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\precision\GeometryPrecisionReducerTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\precision\SimpleGeometryPrecisionReducerTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\simplify\DouglasPeuckerSimplifierTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\simplify\TopologyPreservingSimplifierTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\DelaunayTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\VoronoiTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\quadedge\QuadEdgeSubdivisionTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\quadedge\QuadEdgeTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\quadedge\VertexTest.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\util\UniqueCoordinateArrayFilterTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\code\3rdparty\geos-3.8.1\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{68F378AC-594E-374E-B79D-1F460C29043E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\geos-3.8.1\vs2019\geos.vcxproj">
+      <Project>{DDAA8532-4791-34B0-ACCB-217FE5AB3235}</Project>
+      <Name>geos</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\geos-3.8.1\vs2019\geos_c.vcxproj">
+      <Project>{33C839F2-3499-398F-8238-6E16B864C2A5}</Project>
+      <Name>geos_c</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

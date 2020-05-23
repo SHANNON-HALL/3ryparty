@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_time.cpp</FILENAME>
+      <LINE>266</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6384</DEFECTCODE>
+    <DESCRIPTION>用另一个值除指针的 sizeof 值。</DESCRIPTION>
+    <FUNCTION>CPLParseRFC822DateTime</FUNCTION>
+    <DECORATED>?CPLParseRFC822DateTime@@YAHPEBDPEAH1111111@Z</DECORATED>
+    <FUNCLINE>236</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

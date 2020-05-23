@@ -1,0 +1,11 @@
+prefix=F:/code/3rdparty/tiff-4.1.0/install
+exec_prefix=F:/code/3rdparty/tiff-4.1.0/install
+libdir=F:/code/3rdparty/tiff-4.1.0/install/lib
+includedir=F:/code/3rdparty/tiff-4.1.0/install/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.1.0
+Libs: -LF:/code/3rdparty/tiff-4.1.0/install/lib -ltiff
+Libs.private: 
+Cflags: -IF:/code/3rdparty/tiff-4.1.0/install/include

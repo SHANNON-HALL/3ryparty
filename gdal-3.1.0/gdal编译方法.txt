@@ -1,0 +1,34 @@
+修改nmake.opt
+MSVC_VER=1921
+GDAL_HOME = "F:\code\3rdparty\gdal-3.1.0\install"
+
+PROJ_INCLUDE = -IF:\code\3rdparty\PROJ\install\include
+debug设置为
+PROJ_LIBRARY =F:\code\3rdparty\PROJ\install\lib\proj_d.lib
+release设置为
+PROJ_LIBRARY =F:\code\3rdparty\PROJ\install\lib\proj.lib
+
+SQLITE_INC=-IF:\code\3rdparty\sqlite-3.32\install\include
+debug设置为
+SQLITE_LIB=F:\code\3rdparty\sqlite-3.32\install\lib\sqlite3d.lib
+release设置为
+SQLITE_LIB=F:\code\3rdparty\sqlite-3.32\install\lib\sqlite3.lib
+
+GEOS_DIR=F:\code\3rdparty\geos-3.8.1\geos-3.8.1
+GEOS_CFLAGS = -IF:\code\3rdparty\geos-3.8.1\install\include -DHAVE_GEOS
+debug配置
+GEOS_LIB     = F:\code\3rdparty\geos-3.8.1\install\lib\geos_cd.lib
+release配置
+GEOS_LIB     = F:\code\3rdparty\geos-3.8.1\install\lib\geos_c.lib
+
+在EXTERNAL_LIBS最后加入 Shell32.lib
+
+假如需要GDAL的其它扩展，也可以加入，比如png, jpeg, zlib等等
+
+命令
+DEBUG
+nmake -f makefile.vc MSVC_VER=1921 DEBUG=1 ANALYZE=1 WITH_PDB=1 WIN64=1
+nmake -f makefile.vc devinstall
+RELEASE
+nmake -f makefile.vc MSVC_VER=1921 DEBUG=0 ANALYZE=1 WITH_PDB=0 WIN64=1
+nmake -f makefile.vc devinstall

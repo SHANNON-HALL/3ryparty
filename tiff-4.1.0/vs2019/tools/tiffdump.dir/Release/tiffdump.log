@@ -1,0 +1,26 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  tiffdump.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(142,1): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(516): message : 参见“open”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(153,1): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(459): message : 参见“close”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(173,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(196,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(209,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(484,48): warning C4244: “函数”: 从“uint64”转换到“unsigned int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(315,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(324,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(342,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(358,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(364,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdump.c(484,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+  tiffdump.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Release\tiffdump.exe

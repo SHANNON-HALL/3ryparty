@@ -1,0 +1,7 @@
+F:/code/3rdparty/zlib-1.2.11/install/zlib/lib/zlib.lib
+F:/code/3rdparty/zlib-1.2.11/install/zlib/bin/zlib.dll
+F:/code/3rdparty/zlib-1.2.11/install/zlib/lib/zlibstatic.lib
+F:/code/3rdparty/zlib-1.2.11/install/zlib/include/zconf.h
+F:/code/3rdparty/zlib-1.2.11/install/zlib/include/zlib.h
+F:/code/3rdparty/zlib-1.2.11/install/zlib/share/man/man3/zlib.3
+F:/code/3rdparty/zlib-1.2.11/install/zlib/share/pkgconfig/zlib.pc

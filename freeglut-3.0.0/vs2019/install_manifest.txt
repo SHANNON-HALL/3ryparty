@@ -1,0 +1,8 @@
+F:/code/3rdparty/freeglut-3.0.0/install/lib/freeglut.lib
+F:/code/3rdparty/freeglut-3.0.0/install/bin/freeglut.dll
+F:/code/3rdparty/freeglut-3.0.0/install/lib/freeglut_static.lib
+F:/code/3rdparty/freeglut-3.0.0/install/include/GL/freeglut.h
+F:/code/3rdparty/freeglut-3.0.0/install/include/GL/freeglut_ext.h
+F:/code/3rdparty/freeglut-3.0.0/install/include/GL/freeglut_std.h
+F:/code/3rdparty/freeglut-3.0.0/install/include/GL/glut.h
+F:/code/3rdparty/freeglut-3.0.0/install/lib/pkgconfig/freeglut.pc

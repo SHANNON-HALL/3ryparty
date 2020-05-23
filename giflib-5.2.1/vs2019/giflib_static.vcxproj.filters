@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\dgif_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\egif_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\gifalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\gif_err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\gif_font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\gif_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\openbsd-reallocarray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\gif_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\gif_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\gif_lib_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4785F106-2EF7-3100-94D8-BE803B4AF25C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{07A1C279-BD08-35FE-9117-D0C3C3A46998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

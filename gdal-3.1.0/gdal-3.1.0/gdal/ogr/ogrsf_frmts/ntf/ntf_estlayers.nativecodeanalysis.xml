@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\ntf\</FILEPATH>
+      <FILENAME>ntf_estlayers.cpp</FILENAME>
+      <LINE>486</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“20040”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>TranslateBoundarylineCollection</FUNCTION>
+    <DECORATED>?TranslateBoundarylineCollection@@YAPEAVOGRFeature@@PEAVNTFFileReader@@PEAVOGRNTFLayer@@PEAPEAVNTFRecord@@@Z</DECORATED>
+    <FUNCLINE>486</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\ntf\</FILEPATH>
+      <FILENAME>ntf_estlayers.cpp</FILENAME>
+      <LINE>533</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“120072”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>TranslateBoundarylinePoly</FUNCTION>
+    <DECORATED>?TranslateBoundarylinePoly@@YAPEAVOGRFeature@@PEAVNTFFileReader@@PEAVOGRNTFLayer@@PEAPEAVNTFRecord@@@Z</DECORATED>
+    <FUNCLINE>533</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\ntf\</FILEPATH>
+      <FILENAME>ntf_estlayers.cpp</FILENAME>
+      <LINE>734</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“120072”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>TranslateBL2000Poly</FUNCTION>
+    <DECORATED>?TranslateBL2000Poly@@YAPEAVOGRFeature@@PEAVNTFFileReader@@PEAVOGRNTFLayer@@PEAPEAVNTFRecord@@@Z</DECORATED>
+    <FUNCLINE>734</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\ntf\</FILEPATH>
+      <FILENAME>ntf_estlayers.cpp</FILENAME>
+      <LINE>930</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“40048”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>TranslateBL2000Collection</FUNCTION>
+    <DECORATED>?TranslateBL2000Collection@@YAPEAVOGRFeature@@PEAVNTFFileReader@@PEAVOGRNTFLayer@@PEAPEAVNTFRecord@@@Z</DECORATED>
+    <FUNCLINE>930</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\ntf\</FILEPATH>
+      <FILENAME>ntf_estlayers.cpp</FILENAME>
+      <LINE>1147</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“60040”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>TranslateStrategiNode</FUNCTION>
+    <DECORATED>?TranslateStrategiNode@@YAPEAVOGRFeature@@PEAVNTFFileReader@@PEAVOGRNTFLayer@@PEAPEAVNTFRecord@@@Z</DECORATED>
+    <FUNCLINE>1147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

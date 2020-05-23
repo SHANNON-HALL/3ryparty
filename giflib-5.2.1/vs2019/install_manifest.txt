@@ -1,0 +1,10 @@
+F:/code/3rdparty/giflib-5.2.1/install/bin/gif2rgb.exe
+F:/code/3rdparty/giflib-5.2.1/install/bin/gifbuild.exe
+F:/code/3rdparty/giflib-5.2.1/install/bin/giffix.exe
+F:/code/3rdparty/giflib-5.2.1/install/bin/giftext.exe
+F:/code/3rdparty/giflib-5.2.1/install/bin/giftool.exe
+F:/code/3rdparty/giflib-5.2.1/install/bin/gifclrmp.exe
+F:/code/3rdparty/giflib-5.2.1/install/include/gif_lib.h
+F:/code/3rdparty/giflib-5.2.1/install/lib/giflib.lib
+F:/code/3rdparty/giflib-5.2.1/install/bin/giflib.dll
+F:/code/3rdparty/giflib-5.2.1/install/lib/giflib_static.lib

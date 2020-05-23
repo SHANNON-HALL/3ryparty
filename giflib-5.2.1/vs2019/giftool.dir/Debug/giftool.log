@@ -1,0 +1,2 @@
+﻿LINK : fatal error LNK1104: 无法打开文件“Debug\giflib_static.lib”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(810,5): error MSB6006: “link.exe”已退出，代码为 1104。

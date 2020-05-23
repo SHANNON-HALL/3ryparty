@@ -1,0 +1,5 @@
+F:/code/3rdparty/freetype-2.10.0/vs2019/CMakeFiles/PACKAGE.dir
+F:/code/3rdparty/freetype-2.10.0/vs2019/CMakeFiles/freetype.dir
+F:/code/3rdparty/freetype-2.10.0/vs2019/CMakeFiles/INSTALL.dir
+F:/code/3rdparty/freetype-2.10.0/vs2019/CMakeFiles/ALL_BUILD.dir
+F:/code/3rdparty/freetype-2.10.0/vs2019/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\channel\</FILEPATH>
+      <FILENAME>cpcidskchannel.cpp</FILENAME>
+      <LINE>260</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKChannel::IsOverviewValid</FUNCTION>
+    <DECORATED>?IsOverviewValid@CPCIDSKChannel@PCIDSK@@UEAA_NH@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\channel\</FILEPATH>
+      <FILENAME>cpcidskchannel.cpp</FILENAME>
+      <LINE>285</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKChannel::GetOverviewResampling</FUNCTION>
+    <DECORATED>?GetOverviewResampling@CPCIDSKChannel@PCIDSK@@UEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>270</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\channel\</FILEPATH>
+      <FILENAME>cpcidskchannel.cpp</FILENAME>
+      <LINE>308</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKChannel::SetOverviewValidity</FUNCTION>
+    <DECORATED>?SetOverviewValidity@CPCIDSKChannel@PCIDSK@@UEAAXH_N@Z</DECORATED>
+    <FUNCLINE>295</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

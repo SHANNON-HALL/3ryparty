@@ -1,0 +1,25 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/contrib/iptcutil/CMakeLists.txt
+  iptcutil.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(167,19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(183,23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(157,1): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : 参见“sscanf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(181,1): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(560): message : 参见“strnicmp”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(346,20): warning C4311: “类型强制转换”: 从“char *”到“long”的指针截断
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(346,30): warning C4311: “类型强制转换”: 从“char *”到“long”的指针截断
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(351,23): warning C4311: “类型强制转换”: 从“char *”到“long”的指针截断
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(351,31): warning C4311: “类型强制转换”: 从“char *”到“long”的指针截断
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(366,20): warning C4311: “类型强制转换”: 从“char *”到“long”的指针截断
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(366,29): warning C4311: “类型强制转换”: 从“char *”到“long”的指针截断
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(535,40): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(544,65): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(431,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(433,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(442,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\iptcutil\iptcutil.c(444,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+  iptcutil.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\iptcutil\Release\iptcutil.exe

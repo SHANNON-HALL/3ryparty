@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+      <FILENAME>mopen.c</FILENAME>
+      <LINE>143</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 对 32 位值进行移位操作，然后强制转换为 64 位值。 结果可能不是预期值。</DESCRIPTION>
+    <FUNCTION>Mopen</FUNCTION>
+    <DECORATED>Mopen</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+      <FILENAME>mopen.c</FILENAME>
+      <LINE>144</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 对 32 位值进行移位操作，然后强制转换为 64 位值。 结果可能不是预期值。</DESCRIPTION>
+    <FUNCTION>Mopen</FUNCTION>
+    <DECORATED>Mopen</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

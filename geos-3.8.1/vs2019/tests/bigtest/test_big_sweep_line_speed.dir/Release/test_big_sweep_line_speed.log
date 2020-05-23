@@ -1,0 +1,5 @@
+﻿  Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/tests/bigtest/CMakeLists.txt
+  TestSweepLineSpeed.cpp
+  GeometryTestFactory.cpp
+  正在生成代码...
+  test_big_sweep_line_speed.vcxproj -> F:\code\3rdparty\geos-3.8.1\vs2019\bin\Release\test_big_sweep_line_speed.exe

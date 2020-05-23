@@ -1,0 +1,10 @@
+^F:\CODE\3RDPARTY\FREEGLUT-3.0.0\FREEGLUT-3.0.0\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/freeglut-3.0.0/freeglut-3.0.0 -BF:/code/3rdparty/freeglut-3.0.0/vs2019 --check-stamp-file F:/code/3rdparty/freeglut-3.0.0/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,11 @@
+﻿  Building Custom Rule F:/code/3rdparty/jbigkit-2.1/jbigkit-2.1/CMakeLists.txt
+  jbig.c
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig.c(33,1): warning C4005: “NDEBUG”: 宏重定义
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig.c : message : 参见“NDEBUG”的前一个定义
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig.c(2324,17): warning C4244: “=”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig.c(2499,19): warning C4244: “=”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig.c(2738,31): warning C4267: “-=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  jbig_ar.c
+  正在生成代码...
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig.c(3200,17): warning C4244: “=”: 从“__int64”转换到“unsigned long”，可能丢失数据
+  libjbig.vcxproj -> F:\code\3rdparty\jbigkit-2.1\vs2019\Release\libjbig.lib

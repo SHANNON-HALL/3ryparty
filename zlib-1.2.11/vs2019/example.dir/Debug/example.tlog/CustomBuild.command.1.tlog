@@ -1,0 +1,10 @@
+^F:\CODE\3RDPARTY\ZLIB-1.2.11\ZLIB-1.2.11\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/zlib-1.2.11/zlib-1.2.11 -BF:/code/3rdparty/zlib-1.2.11/vs2019 --check-stamp-file F:/code/3rdparty/zlib-1.2.11/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

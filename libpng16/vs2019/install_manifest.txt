@@ -1,0 +1,14 @@
+F:/code/3rdparty/libpng16/install/lib/libpng16d.lib
+F:/code/3rdparty/libpng16/install/bin/libpng16d.dll
+F:/code/3rdparty/libpng16/install/lib/libpng16_staticd.lib
+F:/code/3rdparty/libpng16/install/include/png.h
+F:/code/3rdparty/libpng16/install/include/pngconf.h
+F:/code/3rdparty/libpng16/install/include/pnglibconf.h
+F:/code/3rdparty/libpng16/install/include/libpng16/png.h
+F:/code/3rdparty/libpng16/install/include/libpng16/pngconf.h
+F:/code/3rdparty/libpng16/install/include/libpng16/pnglibconf.h
+F:/code/3rdparty/libpng16/install/share/man/man3/libpng.3
+F:/code/3rdparty/libpng16/install/share/man/man3/libpngpf.3
+F:/code/3rdparty/libpng16/install/share/man/man5/png.5
+F:/code/3rdparty/libpng16/install/lib/libpng/libpng16.cmake
+F:/code/3rdparty/libpng16/install/lib/libpng/libpng16-debug.cmake

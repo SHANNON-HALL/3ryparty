@@ -1,0 +1,32 @@
+^F:\CODE\3RDPARTY\PROJ\VS2019\CMAKEFILES\C3998704FC05D54B1A83A6946711DA3B\PROJ.DB.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f F:/code/3rdparty/PROJ/vs2019/data/proj.db
+if %errorlevel% neq 0 goto :cmEnd
+F:\code\3rdparty\sqlite-3.32\install\bin\sqlite3.exe -init F:/code/3rdparty/PROJ/vs2019/data/all.sql.in F:/code/3rdparty/PROJ/vs2019/data/proj.db .quit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy F:/code/3rdparty/PROJ/vs2019/data/proj.db F:/code/3rdparty/PROJ/vs2019/data/for_tests
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\CMAKEFILES\42ED9D374C0246E01251E4B6A2554EB5\GENERATE_PROJ_DB.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\PROJ-MASTER\DATA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

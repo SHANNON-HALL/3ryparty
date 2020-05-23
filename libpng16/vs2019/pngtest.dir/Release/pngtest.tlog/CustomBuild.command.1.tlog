@@ -1,0 +1,10 @@
+^F:\CODE\3RDPARTY\LIBPNG16\LIBPNG16\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/libpng16/libpng16 -BF:/code/3rdparty/libpng16/vs2019 --check-stamp-file F:/code/3rdparty/libpng16/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  fax2tiff.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2tiff.c(113,20): warning C4013: “getopt”未定义；假设外部返回 int
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2tiff.c(272,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2tiff.c(279,1): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2459): message : 参见“fileno”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2tiff.c(471,1): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(395): message : 参见“setbuf”的声明
+  fax2tiff.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Debug\fax2tiff.exe

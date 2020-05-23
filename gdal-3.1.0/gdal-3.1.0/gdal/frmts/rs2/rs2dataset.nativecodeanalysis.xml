@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rs2\</FILEPATH>
+      <FILENAME>rs2dataset.cpp</FILENAME>
+      <LINE>1359</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6384</DEFECTCODE>
+    <DESCRIPTION>用另一个值除指针的 sizeof 值。</DESCRIPTION>
+    <FUNCTION>RS2Dataset::Open</FUNCTION>
+    <DECORATED>?Open@RS2Dataset@@SAPEAVGDALDataset@@PEAVGDALOpenInfo@@@Z</DECORATED>
+    <FUNCLINE>635</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

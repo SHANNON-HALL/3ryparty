@@ -1,0 +1,18 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/test/CMakeLists.txt
+  strip_rw.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\strip_rw.c(87,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\strip_rw.c(103,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\strip_rw.c(129,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\strip_rw.c(146,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\strip_rw.c(151,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  strip.c
+  test_arrays.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\test_arrays.c(252,1): warning C4305: “初始化”: 从“double”到“const float”截断
+  正在生成代码...
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\test_arrays.c(373,1): warning C4305: “初始化”: 从“double”到“const float”截断
+  strip_rw.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\test\Release\strip_rw.exe

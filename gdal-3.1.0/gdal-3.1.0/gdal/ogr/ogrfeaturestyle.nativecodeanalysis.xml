@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\</FILEPATH>
+      <FILENAME>ogrfeaturestyle.cpp</FILENAME>
+      <LINE>1491</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“bool”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLString::Printf”。</DESCRIPTION>
+    <FUNCTION>OGRStyleTool::GetStyleString</FUNCTION>
+    <DECORATED>?GetStyleString@OGRStyleTool@@QEAAPEBDPEBUogr_style_param@@PEAUogr_style_value@@H@Z</DECORATED>
+    <FUNCLINE>1434</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\</FILEPATH>
+      <FILENAME>ogrfeaturestyle.cpp</FILENAME>
+      <LINE>2063</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“bool”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLSPrintf”。</DESCRIPTION>
+    <FUNCTION>OGRStyleTool::GetParamStr</FUNCTION>
+    <DECORATED>?GetParamStr@OGRStyleTool@@QEAAPEBDAEBUogr_style_param@@AEAUogr_style_value@@AEAH@Z</DECORATED>
+    <FUNCLINE>2029</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

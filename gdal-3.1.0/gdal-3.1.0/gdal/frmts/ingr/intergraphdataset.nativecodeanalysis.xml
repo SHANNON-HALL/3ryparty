@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\ingr\</FILEPATH>
+      <FILENAME>intergraphdataset.cpp</FILENAME>
+      <LINE>246</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned short”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>IntergraphDataset::Open</FUNCTION>
+    <DECORATED>?Open@IntergraphDataset@@SAPEAVGDALDataset@@PEAVGDALOpenInfo@@@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\ingr\</FILEPATH>
+      <FILENAME>intergraphdataset.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned char”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLSPrintf”。</DESCRIPTION>
+    <FUNCTION>IntergraphDataset::Open</FUNCTION>
+    <DECORATED>?Open@IntergraphDataset@@SAPEAVGDALDataset@@PEAVGDALOpenInfo@@@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,10 @@
+^F:\CODE\3RDPARTY\GEOS-3.8.1\VS2019\CMAKEFILES\CE6D293229BF5D9781845C65468B8EC3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/code/3rdparty/geos-3.8.1/vs2019/GEOS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

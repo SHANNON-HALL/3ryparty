@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsonlayer.cpp</FILENAME>
+      <LINE>311</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>OGRGeoJSONLayer::ICreateFeature</FUNCTION>
+    <DECORATED>?ICreateFeature@OGRGeoJSONLayer@@UEAAHPEAVOGRFeature@@@Z</DECORATED>
+    <FUNCLINE>274</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsonlayer.cpp</FILENAME>
+      <LINE>321</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>OGRGeoJSONLayer::ICreateFeature</FUNCTION>
+    <DECORATED>?ICreateFeature@OGRGeoJSONLayer@@UEAAHPEAVOGRFeature@@@Z</DECORATED>
+    <FUNCLINE>274</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsonlayer.cpp</FILENAME>
+      <LINE>330</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>OGRGeoJSONLayer::ICreateFeature</FUNCTION>
+    <DECORATED>?ICreateFeature@OGRGeoJSONLayer@@UEAAHPEAVOGRFeature@@@Z</DECORATED>
+    <FUNCLINE>274</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

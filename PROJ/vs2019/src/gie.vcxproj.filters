@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\apps\gie.cpp">
+      <Filter>Source Files\Bin</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\apps\proj_strtod.cpp">
+      <Filter>Source Files\Bin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\apps\proj_strtod.h">
+      <Filter>Source Files\Bin</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\apps\optargpm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\PROJ-master\src\CMakeLists.txt">
+      <Filter>CMake Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Files">
+      <UniqueIdentifier>{27E1FF21-1607-3EEB-ACC0-DF656F37FCF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{127CD30E-B8FE-3EF3-B2F4-500F26898B92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9C4C7F55-50C8-335B-9C31-9A4C63EB2C0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bin">
+      <UniqueIdentifier>{398C5CBC-25E3-3C0D-99E1-427B143EEA26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

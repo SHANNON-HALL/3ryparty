@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\gif\giflib\</FILEPATH>
+      <FILENAME>gifalloc.c</FILENAME>
+      <LINE>366</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>“realloc”可能返回 null 指针: 将 null 指针赋给“GifFile-&gt;SavedImages”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。</DESCRIPTION>
+    <FUNCTION>MakeSavedImage</FUNCTION>
+    <DECORATED>MakeSavedImage</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

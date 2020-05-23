@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5430926D-78F1-3F34-89BC-D5874422D86E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/tiff-4.1.0/tiff-4.1.0 -BF:/code/3rdparty/tiff-4.1.0/vs2019 --check-stamp-file F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\libtiff-4.pc.in;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/tiff-4.1.0/tiff-4.1.0 -BF:/code/3rdparty/tiff-4.1.0/vs2019 --check-stamp-file F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\libtiff-4.pc.in;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/tiff-4.1.0/tiff-4.1.0 -BF:/code/3rdparty/tiff-4.1.0/vs2019 --check-stamp-file F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\libtiff-4.pc.in;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/tiff-4.1.0/tiff-4.1.0 -BF:/code/3rdparty/tiff-4.1.0/vs2019 --check-stamp-file F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindLibLZMA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\libtiff-4.pc.in;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{2C15A93D-E080-3964-AA82-1DA9CB7488BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\addtiffo\addtiffo.vcxproj">
+      <Project>{80FF052D-29FC-3007-943A-647D561D7651}</Project>
+      <Name>addtiffo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\ascii_tag.vcxproj">
+      <Project>{962562A4-DE0B-3C6F-895A-AB835F0279FD}</Project>
+      <Name>ascii_tag</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\custom_dir.vcxproj">
+      <Project>{42F710A8-1A18-36D7-9C24-5CA46A3235A6}</Project>
+      <Name>custom_dir</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\defer_strile_loading.vcxproj">
+      <Project>{50EACE2D-FC26-3977-A9BC-3D18ACB4B546}</Project>
+      <Name>defer_strile_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\defer_strile_writing.vcxproj">
+      <Project>{1AEF01F5-AF32-3FB9-8B99-90F53E04ED20}</Project>
+      <Name>defer_strile_writing</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\fax2ps.vcxproj">
+      <Project>{39BF6806-121E-395E-B90A-E58610476A8F}</Project>
+      <Name>fax2ps</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\fax2tiff.vcxproj">
+      <Project>{5472592C-26D2-3E51-852D-AA27D0E3A15E}</Project>
+      <Name>fax2tiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\iptcutil\iptcutil.vcxproj">
+      <Project>{135A9474-4D35-3E21-849B-6F903617D68F}</Project>
+      <Name>iptcutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\long_tag.vcxproj">
+      <Project>{245821D6-78B3-32E4-81A8-3DDF3E6B043E}</Project>
+      <Name>long_tag</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\pal2rgb.vcxproj">
+      <Project>{3D5ABBC0-441D-346F-BAA0-1FB4602979DC}</Project>
+      <Name>pal2rgb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\port\port.vcxproj">
+      <Project>{3274C501-3FC3-30D1-A915-FAC4EE2BF856}</Project>
+      <Name>port</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\ppm2tiff.vcxproj">
+      <Project>{179AC396-0D89-3B8D-B12D-D28C7665F2DD}</Project>
+      <Name>ppm2tiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\raw2tiff.vcxproj">
+      <Project>{DED8A302-21DA-331E-963C-DFFA2BC07B36}</Project>
+      <Name>raw2tiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\raw_decode.vcxproj">
+      <Project>{98931D82-2265-3EAD-A734-AB24FFA87D0E}</Project>
+      <Name>raw_decode</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\rewrite.vcxproj">
+      <Project>{7C340032-205E-3DB8-A22D-8C6E154DAF5D}</Project>
+      <Name>rewrite</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\rgb2ycbcr.vcxproj">
+      <Project>{124531D2-192A-3225-B2F3-78322438F778}</Project>
+      <Name>rgb2ycbcr</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\short_tag.vcxproj">
+      <Project>{5BFCC81C-378F-3430-A955-5948CC450BB3}</Project>
+      <Name>short_tag</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\strip_rw.vcxproj">
+      <Project>{60BF6351-60F9-3B3B-9D73-4F8EB0D932C3}</Project>
+      <Name>strip_rw</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\test\testtypes.vcxproj">
+      <Project>{43688D60-9DD1-3AE6-865F-D6065C988D4D}</Project>
+      <Name>testtypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\thumbnail.vcxproj">
+      <Project>{EE2136D9-ED6A-3F3C-9BAE-03A727EAB424}</Project>
+      <Name>thumbnail</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\libtiff\tiff.vcxproj">
+      <Project>{A2C2DB05-AC91-35A5-A9CB-75558E20C122}</Project>
+      <Name>tiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\dbs\tiff-bi.vcxproj">
+      <Project>{6E940875-909C-34BD-A3A0-FCE5BF954F8D}</Project>
+      <Name>tiff-bi</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\dbs\tiff-grayscale.vcxproj">
+      <Project>{063D8781-3693-3552-9540-23D4A278A736}</Project>
+      <Name>tiff-grayscale</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\dbs\tiff-palette.vcxproj">
+      <Project>{7A863EF4-DE3C-333E-A388-AB336EC63335}</Project>
+      <Name>tiff-palette</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\dbs\tiff-rgb.vcxproj">
+      <Project>{6209E688-9E51-32B0-83F6-3C611296B7F9}</Project>
+      <Name>tiff-rgb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiff2bw.vcxproj">
+      <Project>{8127108C-AFCC-38C8-88FF-E39F016D0637}</Project>
+      <Name>tiff2bw</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiff2pdf.vcxproj">
+      <Project>{B0965B70-D76B-3E49-9AE8-361B8B960594}</Project>
+      <Name>tiff2pdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiff2ps.vcxproj">
+      <Project>{45440E8C-2CE6-3E2F-91CC-5F3AB083A80B}</Project>
+      <Name>tiff2ps</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiff2rgba.vcxproj">
+      <Project>{7812E1F7-7CEB-3243-9FBD-84C0144C7011}</Project>
+      <Name>tiff2rgba</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffcmp.vcxproj">
+      <Project>{EC57F3ED-5FE9-3031-BA9F-0AFAACA6FED1}</Project>
+      <Name>tiffcmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffcp.vcxproj">
+      <Project>{925AF0FB-F527-30FA-B2AD-8D09B0901C0B}</Project>
+      <Name>tiffcp</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffcrop.vcxproj">
+      <Project>{1669F231-CD25-38D5-AF62-804CE368CEFC}</Project>
+      <Name>tiffcrop</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffdither.vcxproj">
+      <Project>{EDDEDEC2-32AD-3412-992A-B09FF24F22DE}</Project>
+      <Name>tiffdither</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffdump.vcxproj">
+      <Project>{21E98ED2-9A1B-3CCE-BF26-E934AF32DDE4}</Project>
+      <Name>tiffdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffinfo.vcxproj">
+      <Project>{6BDEADA9-496B-34D4-AB1B-D644DF011E34}</Project>
+      <Name>tiffinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffmedian.vcxproj">
+      <Project>{574875D1-2FD4-32D9-A150-2E10E9F6D334}</Project>
+      <Name>tiffmedian</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffset.vcxproj">
+      <Project>{DC02E727-6B6B-3A19-A331-094AC40E2207}</Project>
+      <Name>tiffset</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\tools\tiffsplit.vcxproj">
+      <Project>{B676640C-4550-351C-9723-D945FCDB956C}</Project>
+      <Name>tiffsplit</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\tiff-4.1.0\vs2019\libtiff\tiffxx.vcxproj">
+      <Project>{5639C416-6462-3F5E-ABAF-6559CD2ECA93}</Project>
+      <Name>tiffxx</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

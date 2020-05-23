@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/lib/CMakeLists.txt
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/lib/curl_config.h.cmake
+F:/code/3rdparty/curl-7.70.0/vs2019/lib/Makefile.inc.cmake

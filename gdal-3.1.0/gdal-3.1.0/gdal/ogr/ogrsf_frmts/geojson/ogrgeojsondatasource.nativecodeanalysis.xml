@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsondatasource.cpp</FILENAME>
+      <LINE>729</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6384</DEFECTCODE>
+    <DESCRIPTION>用另一个值除指针的 sizeof 值。</DESCRIPTION>
+    <FUNCTION>OGRGeoJSONDataSource::RemoveJSonPStuff</FUNCTION>
+    <DECORATED>?RemoveJSonPStuff@OGRGeoJSONDataSource@@AEAAXXZ</DECORATED>
+    <FUNCLINE>726</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsondatasource.cpp</FILENAME>
+      <LINE>855</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>OGRGeoJSONDataSource::LoadLayers</FUNCTION>
+    <DECORATED>?LoadLayers@OGRGeoJSONDataSource@@AEAAXPEAVGDALOpenInfo@@W4GeoJSONSourceType@@PEBD2@Z</DECORATED>
+    <FUNCLINE>751</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsondatasource.cpp</FILENAME>
+      <LINE>860</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>OGRGeoJSONDataSource::LoadLayers</FUNCTION>
+    <DECORATED>?LoadLayers@OGRGeoJSONDataSource@@AEAAXPEAVGDALOpenInfo@@W4GeoJSONSourceType@@PEBD2@Z</DECORATED>
+    <FUNCLINE>751</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindThreads.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/CMakeLists.txt
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_cct.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_cs2cs.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_geod.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_geodtest.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_gie.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_proj.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_projinfo.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/bin_projsync.cmake
+F:/code/3rdparty/PROJ/PROJ-master/src/lib_proj.cmake

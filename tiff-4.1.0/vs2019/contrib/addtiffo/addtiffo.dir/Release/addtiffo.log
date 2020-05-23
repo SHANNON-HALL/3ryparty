@@ -1,0 +1,10 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/contrib/addtiffo/CMakeLists.txt
+  addtiffo.c
+  tif_overview.c
+  tif_ovrcache.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\addtiffo\tif_overview.c(168,19): warning C4244: “return”: 从“toff_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\addtiffo\tif_ovrcache.c(284,49): warning C4244: “=”: 从“toff_t”转换到“long”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\addtiffo\tif_ovrcache.c(287,55): warning C4244: “=”: 从“toff_t”转换到“long”，可能丢失数据
+  正在生成代码...
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\contrib\addtiffo\tif_ovrcache.c(314,50): warning C4244: “=”: 从“toff_t”转换到“int”，可能丢失数据
+  addtiffo.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\contrib\addtiffo\Release\addtiffo.exe

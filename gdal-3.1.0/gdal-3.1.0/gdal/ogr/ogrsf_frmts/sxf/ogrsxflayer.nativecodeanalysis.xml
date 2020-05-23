@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\sxf\</FILEPATH>
+      <FILENAME>ogrsxflayer.cpp</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLString::Printf”。</DESCRIPTION>
+    <FUNCTION>OGRSXFLayer::AddClassifyCode</FUNCTION>
+    <DECORATED>?AddClassifyCode@OGRSXFLayer@@UEAAXIPEBD@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\sxf\</FILEPATH>
+      <FILENAME>ogrsxflayer.cpp</FILENAME>
+      <LINE>151</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned short”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLString::Printf”。</DESCRIPTION>
+    <FUNCTION>OGRSXFLayer::AddRecord</FUNCTION>
+    <DECORATED>?AddRecord@OGRSXFLayer@@UEAA_NJI_K_N0@Z</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\sxf\</FILEPATH>
+      <FILENAME>ogrsxflayer.cpp</FILENAME>
+      <LINE>837</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLString::Printf”。</DESCRIPTION>
+    <FUNCTION>OGRSXFLayer::GetNextRawFeature</FUNCTION>
+    <DECORATED>?GetNextRawFeature@OGRSXFLayer@@MEAAPEAVOGRFeature@@J@Z</DECORATED>
+    <FUNCLINE>610</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\sxf\</FILEPATH>
+      <FILENAME>ogrsxflayer.cpp</FILENAME>
+      <LINE>880</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned short”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLString::Printf”。</DESCRIPTION>
+    <FUNCTION>OGRSXFLayer::GetNextRawFeature</FUNCTION>
+    <DECORATED>?GetNextRawFeature@OGRSXFLayer@@MEAAPEAVOGRFeature@@J@Z</DECORATED>
+    <FUNCLINE>610</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\sxf\</FILEPATH>
+      <FILENAME>ogrsxflayer.cpp</FILENAME>
+      <LINE>1385</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>OGRSXFLayer::TranslatePolygon</FUNCTION>
+    <DECORATED>?TranslatePolygon@OGRSXFLayer@@IEAAPEAVOGRFeature@@AEBUSXFRecordDescription@@PEBDI@Z</DECORATED>
+    <FUNCLINE>1327</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\sxf\</FILEPATH>
+      <FILENAME>ogrsxflayer.cpp</FILENAME>
+      <LINE>1385</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(5) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>OGRSXFLayer::TranslatePolygon</FUNCTION>
+    <DECORATED>?TranslatePolygon@OGRSXFLayer@@IEAAPEAVOGRFeature@@AEBUSXFRecordDescription@@PEBDI@Z</DECORATED>
+    <FUNCLINE>1327</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

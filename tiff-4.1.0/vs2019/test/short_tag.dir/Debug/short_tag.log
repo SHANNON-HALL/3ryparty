@@ -1,0 +1,7 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/test/CMakeLists.txt
+  short_tag.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\short_tag.c(191,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  check_tag.c
+  正在生成代码...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+  short_tag.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\test\Debug\short_tag.exe

@@ -1,0 +1,12 @@
+﻿  Building Custom Rule F:/code/3rdparty/jbigkit-2.1/jbigkit-2.1/CMakeLists.txt
+  pbmtojbg.c
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\pbmtools\pbmtojbg.c(89,1): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\pbmtools\pbmtojbg.c(103,22): warning C4267: “+=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\pbmtools\pbmtojbg.c(313,49): warning C4244: “=”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\pbmtools\pbmtojbg.c(373,36): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\pbmtools\pbmtojbg.c(241,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\pbmtools\pbmtojbg.c(250,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+  jbgtopbm.vcxproj -> F:\code\3rdparty\jbigkit-2.1\vs2019\Release\jbgtopbm.exe

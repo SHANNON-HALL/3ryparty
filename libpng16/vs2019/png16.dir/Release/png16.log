@@ -1,0 +1,19 @@
+﻿  Building Custom Rule F:/code/3rdparty/libpng16/libpng16/CMakeLists.txt
+  png.c
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+  pngread.c
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+  pngwtran.c
+  pngwutil.c
+  正在生成代码...
+    正在创建库 F:/code/3rdparty/libpng16/vs2019/Release/libpng16.lib 和对象 F:/code/3rdparty/libpng16/vs2019/Release/libpng16.exp
+  png16.vcxproj -> F:\code\3rdparty\libpng16\vs2019\Release\libpng16.dll

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/86e73607b782563f98d56ee857c31683/googletest.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/ab24aea04594995e67b480de73e2e356/googletest-complete.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-install.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-mkdir.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-download.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-update.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-patch.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-configure.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-build.rule"
+		},
+		{
+			"file" : "F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

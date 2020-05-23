@@ -1,0 +1,44 @@
+﻿生成启动时间为 2019/3/18 星期一 上午 9:30:18。
+     1>项目“E:\Qt projects\libpng\lpng1621\projects\vstudio\pngtest\pngtest.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         E:\Vs\vs2013\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /I..\..\..\scripts /Zi /nologo /W4 /WX /Ox /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TC /wd4996 /errorReport:prompt ..\..\..\pngtest.c
+         pngtest.c
+       Link:
+         E:\Vs\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\pngtest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\\" libpng16.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\pngtest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\pngtest.lib" /MACHINE:X64 x64\Release\pngtest.obj
+         正在生成代码
+         已完成代码的生成
+         pngtest.vcxproj -> E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\pngtest.exe
+       BscMake:
+         E:\Vs\vs2013\VC\bin\bscmake.exe /nologo /o"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\pngtest.bsc" x64\Release\pngtest.sbr
+       CustomBuildStep:
+         "E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\pngtest.exe" ..\..\..\pngtest.png "x64\Release\pngout.png"
+         :VCEnd
+         
+          Testing libpng version 1.6.21
+            with zlib   version 1.2.8
+         libpng version 1.6.21 - January 15, 2016      Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson      Copyright (c) 1996-1997 Andreas Dilger      Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc. library (10621): libpng version 1.6.21 - January 15, 2016
+          pngtest (10621): libpng version 1.6.21 - January 15, 2016
+         
+          Testing ..\..\..\pngtest.png:
+          Pass 0: rwrwrwrwrwrwrwrwrw
+          Pass 1: rwrwrwrwrwrwrwrwrw
+          Pass 2: rwrwrwrwrwrwrwrw
+          Pass 3: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+          Pass 4: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+          Pass 5: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+                  rwrwrwrw
+          Pass 6: rwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrwrw
+                  rwrwrwrwrw
+          PASS (9782 zero samples)
+          tIME = 7 Jun 1996 17:58:08 +0000
+          libpng passes test
+          Default limits:
+           width_max  = 1000000
+           height_max = 1000000
+           cache_max  = 1000
+           malloc_max = 8000000
+     1>已完成生成项目“E:\Qt projects\libpng\lpng1621\projects\vstudio\pngtest\pngtest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.05

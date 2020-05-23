@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+      <FILENAME>ruseas.c</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“convTableIndex”中读取的数据无效: 可读大小为“12”个字节，但可能读取了“16”个字节。</DESCRIPTION>
+    <FUNCTION>ConvFuncBool</FUNCTION>
+    <DECORATED>ConvFuncBool</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+        <FILENAME>ruseas.c</FILENAME>
+        <LINE>361</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“convTableIndex[15]”中读取无效(可读范围是 0 到 11)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+      <FILENAME>ruseas.c</FILENAME>
+      <LINE>375</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“convTableIndex”中读取的数据无效: 可读大小为“12”个字节，但可能读取了“16”个字节。</DESCRIPTION>
+    <FUNCTION>ConvFunc</FUNCTION>
+    <DECORATED>ConvFunc</DECORATED>
+    <FUNCLINE>364</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+        <FILENAME>ruseas.c</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“convTableIndex[15]”中读取无效(可读范围是 0 到 11)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+      <FILENAME>ruseas.c</FILENAME>
+      <LINE>389</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“type2”中读取的数据无效: 可读大小为“12”个字节，但可能读取了“16”个字节。</DESCRIPTION>
+    <FUNCTION>HasInFileCellReprType2</FUNCTION>
+    <DECORATED>HasInFileCellReprType2</DECORATED>
+    <FUNCLINE>380</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+        <FILENAME>ruseas.c</FILENAME>
+        <LINE>382</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“type2”是一个 12 元素数组(12 字节)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcraster\libcsf\</FILEPATH>
+        <FILENAME>ruseas.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“type2[15]”中读取无效(可读范围是 0 到 11)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,9 @@
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/jbgtopbm.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/pbmtojbg.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/libjbig.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/jbgtopbm85.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/pbmtojbg85.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/libjbig85.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/INSTALL.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/ALL_BUILD.dir
+F:/code/3rdparty/jbigkit-2.1/vs2019/CMakeFiles/ZERO_CHECK.dir

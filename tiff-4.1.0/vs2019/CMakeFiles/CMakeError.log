@@ -1,0 +1,510 @@
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_fb550.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb550.dir\Debug\\" /Fd"cmTC_fb550.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -Wl,--version-script=F:/code/3rdparty/tiff-4.1.0/vs2019/conftest.map "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\src.c"
+cl : 命令行 error D8021: 无效的数值参数“/Wl,--version-script=F:/code/3rdparty/tiff-4.1.0/vs2019/conftest.map” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_fb550.vcxproj]
+
+
+Source file was:
+int main(void){return 0;}
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0b78e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b78e.dir\Debug\\" /Fd"cmTC_0b78e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_0b78e.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a6135.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6135.dir\Debug\\" /Fd"cmTC_a6135.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_a6135.vcxproj]
+
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_7be3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7be3f.dir\Debug\\" /Fd"cmTC_7be3f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_7be3f.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_10e04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10e04.dir\Debug\\" /Fd"cmTC_10e04.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_10e04.vcxproj]
+
+
+
+Performing C SOURCE FILE Test TIME_WITH_SYS_TIME failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_7f1d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D TIME_WITH_SYS_TIME /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f1d8.dir\Debug\\" /Fd"cmTC_7f1d8.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\src.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\src.c(2,10): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_7f1d8.vcxproj]
+
+
+Source file was:
+
+#include <sys/time.h>
+#include <time.h>
+int main(void){return 0;}
+Determining if the mmap exist failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c7964.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7964.dir\Debug\\" /Fd"cmTC_c7964.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/mman.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_c7964.vcxproj]
+
+
+File F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0e977.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e977.dir\Debug\\" /Fd"cmTC_0e977.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_0e977.vcxproj]
+
+
+File F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_95794.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95794.dir\Debug\\" /Fd"cmTC_95794.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_95794.vcxproj]
+
+
+File F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getopt exist failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_25b0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25b0a.dir\Debug\\" /Fd"cmTC_25b0a.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_25b0a.vcxproj]
+
+
+File F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getopt
+  return ((int*)(&getopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the jbg_newlen exist failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_20dd7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20dd7.dir\Debug\\" /Fd"cmTC_20dd7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “jbig.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_20dd7.vcxproj]
+
+
+File F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <jbig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef jbg_newlen
+  return ((int*)(&jbg_newlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file GL/gl.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4b2f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b2f5.dir\Debug\\" /Fd"cmTC_4b2f5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,25): error C2146: 语法错误: 缺少“,”(在标识符“glAccum”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,33): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,58): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,25): error C2146: 语法错误: 缺少“,”(在标识符“glAlphaFunc”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,63): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,21): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,30): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,30): error C2146: 语法错误: 缺少“,”(在标识符“glAreTexturesResident”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,52): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,109): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,25): error C2146: 语法错误: 缺少“,”(在标识符“glArrayElement”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,40): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,25): error C2146: 语法错误: 缺少“,”(在标识符“glBegin”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,33): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,45): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,25): error C2146: 语法错误: 缺少“,”(在标识符“glBindTexture”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,39): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,69): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,25): error C2146: 语法错误: 缺少“,”(在标识符“glBitmap”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,34): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,147): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,25): error C2146: 语法错误: 缺少“,”(在标识符“glBlendFunc”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,68): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,25): error C2146: 语法错误: 缺少“,”(在标识符“glCallList”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,36): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,25): error C2146: 语法错误: 缺少“,”(在标识符“glCallLists”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,81): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,25): error C2146: 语法错误: 缺少“,”(在标识符“glClear”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,33): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,49): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearAccum”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,94): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearColor”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,98): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearDepth”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,53): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearIndex”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearStencil”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,40): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,25): error C2146: 语法错误: 缺少“,”(在标识符“glClipPlane”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,76): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,25): error C2146: 语法错误: 缺少“,”(在标识符“glColor3b”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,35): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,73): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,25): error C2146: 语法错误: 缺少“,”(在标识符“glColor3bv”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,36): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,52): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,25): error C2146: 语法错误: 缺少“,”(在标识符“glColor3d”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,35): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,79): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1177,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1177,16): fatal error C1003: 错误计数超过 100；正在停止编译 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_4b2f5.vcxproj]
+
+
+
+Determining if the include file GL/glu.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_892de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_892de.dir\Debug\\" /Fd"cmTC_892de.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,25): error C2146: 语法错误: 缺少“,”(在标识符“glAccum”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,33): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1157,58): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,25): error C2146: 语法错误: 缺少“,”(在标识符“glAlphaFunc”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1158,63): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,21): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,30): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,30): error C2146: 语法错误: 缺少“,”(在标识符“glAreTexturesResident”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,52): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1159,109): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,25): error C2146: 语法错误: 缺少“,”(在标识符“glArrayElement”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,40): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1160,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,25): error C2146: 语法错误: 缺少“,”(在标识符“glBegin”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,33): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1161,45): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,25): error C2146: 语法错误: 缺少“,”(在标识符“glBindTexture”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,39): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1162,69): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,25): error C2146: 语法错误: 缺少“,”(在标识符“glBitmap”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,34): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1163,147): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,25): error C2146: 语法错误: 缺少“,”(在标识符“glBlendFunc”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1164,68): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,25): error C2146: 语法错误: 缺少“,”(在标识符“glCallList”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,36): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1165,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,25): error C2146: 语法错误: 缺少“,”(在标识符“glCallLists”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1166,81): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,25): error C2146: 语法错误: 缺少“,”(在标识符“glClear”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,33): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1167,49): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearAccum”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1168,94): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearColor”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1169,98): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearDepth”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1170,53): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearIndex”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,38): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1171,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,25): error C2146: 语法错误: 缺少“,”(在标识符“glClearStencil”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,40): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1172,48): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,25): error C2146: 语法错误: 缺少“,”(在标识符“glClipPlane”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,37): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1173,76): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,25): error C2146: 语法错误: 缺少“,”(在标识符“glColor3b”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,35): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1174,73): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,25): error C2146: 语法错误: 缺少“,”(在标识符“glColor3bv”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,36): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1175,52): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,25): error C2085: “APIENTRY”: 不在形参表中 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,25): error C2146: 语法错误: 缺少“,”(在标识符“glColor3d”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,35): error C2143: 语法错误: 缺少“;”(在“(”的前面) [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1176,79): error C2059: 语法错误:“)” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1177,16): error C2054: 在“WINGDIAPI”之后应输入“(” [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\GL/gl.h(1177,16): fatal error C1003: 错误计数超过 100；正在停止编译 [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_892de.vcxproj]
+
+
+
+Determining if the include file GL/glut.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_7d291.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d291.dir\Debug\\" /Fd"cmTC_7d291.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_7d291.vcxproj]
+
+
+
+Determining if the include file GLUT/glut.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_dbd87.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbd87.dir\Debug\\" /Fd"cmTC_dbd87.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “GLUT/glut.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_dbd87.vcxproj]
+
+
+
+Determining if the include file OpenGL/gl.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_3b020.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b020.dir\Debug\\" /Fd"cmTC_3b020.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “OpenGL/gl.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_3b020.vcxproj]
+
+
+
+Determining if the include file OpenGL/glu.h exists failed with the following output:
+Change Dir: F:/code/3rdparty/tiff-4.1.0/vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_8e67b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.3.1+1def00d3d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.23.28106.4 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e67b.dir\Debug\\" /Fd"cmTC_8e67b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “OpenGL/glu.h”: No such file or directory [F:\code\3rdparty\tiff-4.1.0\vs2019\CMakeFiles\CMakeTmp\cmTC_8e67b.vcxproj]
+
+
+

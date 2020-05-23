@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/googletest
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/86e73607b782563f98d56ee857c31683/googletest.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/ab24aea04594995e67b480de73e2e356/googletest-complete.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-install.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-mkdir.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-download.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-update.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-patch.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-configure.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-build.rule
+F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/de46fab914afc4c5c20cea2872743ecc/googletest-test.rule

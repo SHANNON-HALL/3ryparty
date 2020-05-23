@@ -1,0 +1,8 @@
+﻿  Building Custom Rule F:/code/3rdparty/libpng16/libpng16/CMakeLists.txt
+  pngtest.c
+F:\code\3rdparty\libpng16\libpng16\pngtest.c(537,33): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\libpng16\libpng16\pngtest.c(538,31): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\libpng16\libpng16\pngtest.c(552,36): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\libpng16\libpng16\pngtest.c(553,34): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\libpng16\libpng16\pngtest.c(598,46): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+  pngtest.vcxproj -> F:\code\3rdparty\libpng16\vs2019\Release\pngtest.exe

@@ -1,0 +1,19 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  tiff2ps.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(255,20): warning C4013: “getopt”未定义；假设外部返回 int
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(328,44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(331,44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(316,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(1235,32): warning C4244: “函数”: 从“double”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(1235,43): warning C4244: “函数”: 从“double”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(1619,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(1667,1): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(476): message : 参见“ctime”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(1808,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(1827,16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(1842,16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(2417,42): warning C4244: “函数”: 从“tsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2ps.c(3098,1): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(395): message : 参见“setbuf”的声明
+  tiff2ps.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Release\tiff2ps.exe

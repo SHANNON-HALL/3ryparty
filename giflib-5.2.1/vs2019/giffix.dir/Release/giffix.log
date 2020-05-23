@@ -1,0 +1,7 @@
+﻿  quantize.c
+F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\quantize.c(134,25): warning C4018: “<”: 有符号/无符号不匹配
+F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\quantize.c(143,19): warning C4018: “<”: 有符号/无符号不匹配
+F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\quantize.c(154,75): warning C4244: “=”: 从“long”转换到“GifByteType”，可能丢失数据
+F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\quantize.c(155,79): warning C4244: “=”: 从“long”转换到“GifByteType”，可能丢失数据
+F:\code\3rdparty\giflib-5.2.1\giflib-5.2.1\quantize.c(156,77): warning C4244: “=”: 从“long”转换到“GifByteType”，可能丢失数据
+  giffix.vcxproj -> F:\code\3rdparty\giflib-5.2.1\vs2019\Release\giffix.exe

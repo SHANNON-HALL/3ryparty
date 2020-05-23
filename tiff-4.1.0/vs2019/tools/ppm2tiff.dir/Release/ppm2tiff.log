@@ -1,0 +1,11 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  ppm2tiff.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\ppm2tiff.c(138,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\ppm2tiff.c(198,1): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\ppm2tiff.c(204,1): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 参见“fscanf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\ppm2tiff.c(384,1): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(395): message : 参见“setbuf”的声明
+  ppm2tiff.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Release\ppm2tiff.exe

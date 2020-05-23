@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_json_streaming_parser.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>CPLJSonStreamingParser::SkipSpace</FUNCTION>
+    <DECORATED>?SkipSpace@CPLJSonStreamingParser@@AEAAXAEAPEBDAEA_K@Z</DECORATED>
+    <FUNCLINE>124</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_json_streaming_parser.cpp</FILENAME>
+      <LINE>175</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>IsValidNewToken</FUNCTION>
+    <DECORATED>?IsValidNewToken@@YA_ND@Z</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_json_streaming_parser.cpp</FILENAME>
+      <LINE>213</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>CPLJSonStreamingParser::StartNewToken</FUNCTION>
+    <DECORATED>?StartNewToken@CPLJSonStreamingParser@@AEAA_NAEAPEBDAEA_K@Z</DECORATED>
+    <FUNCLINE>183</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_json_streaming_parser.cpp</FILENAME>
+      <LINE>464</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>CPLJSonStreamingParser::Parse</FUNCTION>
+    <DECORATED>?Parse@CPLJSonStreamingParser@@UEAA_NPEBD_K_N@Z</DECORATED>
+    <FUNCLINE>435</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_json_streaming_parser.cpp</FILENAME>
+      <LINE>473</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>CPLJSonStreamingParser::Parse</FUNCTION>
+    <DECORATED>?Parse@CPLJSonStreamingParser@@UEAA_NPEBD_K_N@Z</DECORATED>
+    <FUNCLINE>435</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_json_streaming_parser.cpp</FILENAME>
+      <LINE>844</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isalpha”。</DESCRIPTION>
+    <FUNCTION>CPLJSonStreamingParser::Parse</FUNCTION>
+    <DECORATED>?Parse@CPLJSonStreamingParser@@UEAA_NPEBD_K_N@Z</DECORATED>
+    <FUNCLINE>435</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_json_streaming_parser.cpp</FILENAME>
+      <LINE>869</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>CPLJSonStreamingParser::Parse</FUNCTION>
+    <DECORATED>?Parse@CPLJSonStreamingParser@@UEAA_NPEBD_K_N@Z</DECORATED>
+    <FUNCLINE>435</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

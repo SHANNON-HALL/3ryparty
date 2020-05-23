@@ -1,0 +1,9 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/test/CMakeLists.txt
+  long_tag.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\long_tag.c(144,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\long_tag.c(150,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  check_tag.c
+  正在生成代码...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+  long_tag.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\test\Release\long_tag.exe

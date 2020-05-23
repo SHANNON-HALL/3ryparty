@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\</FILEPATH>
+      <FILENAME>pcidsk_shape.h</FILENAME>
+      <LINE>213</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“v.integer_list_val”的引用。</DESCRIPTION>
+    <FUNCTION>PCIDSK::ShapeField::SetValue</FUNCTION>
+    <DECORATED>?SetValue@ShapeField@PCIDSK@@QEAAXAEBV?$vector@HV?$allocator@H@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>207</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\</FILEPATH>
+        <FILENAME>pcidsk_shape.h</FILENAME>
+        <LINE>209</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\</FILEPATH>
+        <FILENAME>pcidsk_shape.h</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\</FILEPATH>
+        <FILENAME>pcidsk_shape.h</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“v.integer_list_val”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\</FILEPATH>
+        <FILENAME>pcidsk_shape.h</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“v.integer_list_val”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskvectorsegment_consistencycheck.cpp</FILENAME>
+      <LINE>237</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“const unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“snprintf”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKVectorSegment::ConsistencyCheck_DataIndices</FUNCTION>
+    <DECORATED>?ConsistencyCheck_DataIndices@CPCIDSKVectorSegment@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>217</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,11 @@
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/gif2rgb.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/giflib.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/giftool.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/giflib_static.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/gifbuild.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/giffix.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/giftext.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/gifclrmp.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/INSTALL.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/ALL_BUILD.dir
+F:/code/3rdparty/giflib-5.2.1/vs2019/CMakeFiles/ZERO_CHECK.dir

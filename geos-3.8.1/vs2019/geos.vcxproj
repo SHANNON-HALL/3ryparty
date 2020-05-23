@@ -1,0 +1,1086 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDAA8532-4791-34B0-ACCB-217FE5AB3235}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>geos</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">geos.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">geos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">geos.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">geos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">geos.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">geos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">geos.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">geos</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="Debug";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"Debug\";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/Debug/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/Debug/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="Release";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"Release\";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/Release/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/Release/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="MinSizeRel";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"MinSizeRel\";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/MinSizeRel/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/MinSizeRel/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR="RelWithDebInfo";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GEOS_DLL_EXPORT;GEOS_INLINE;USE_UNSTABLE_GEOS_CPP_API;TTMATH_NOASM;CMAKE_INTDIR=\"RelWithDebInfo\";geos_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include;F:\code\3rdparty\geos-3.8.1\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code/3rdparty/geos-3.8.1/vs2019/lib/RelWithDebInfo/geos.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code/3rdparty/geos-3.8.1/vs2019/bin/RelWithDebInfo/geos.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\cmake_uninstall.cmake.in;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\geos-config.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\cmake_uninstall.cmake.in;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\geos-config.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\cmake_uninstall.cmake.in;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\geos-config.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/geos-3.8.1/geos-3.8.1 -BF:/code/3rdparty/geos-3.8.1/vs2019 --check-stamp-file F:/code/3rdparty/geos-3.8.1/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\cmake_uninstall.cmake.in;F:\code\3rdparty\geos-3.8.1\geos-3.8.1\cmake\geos-config.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\geos-3.8.1\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\Angle.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\Area.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\BoundaryNodeRule.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\CGAlgorithmsDD.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\CentralEndpointIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\Centroid.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ConvexHull.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ConvexHull.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\Distance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\HCoordinate.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\InteriorPointArea.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\InteriorPointLine.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\InteriorPointPoint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\Intersection.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\Length.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\LineIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\MinimumBoundingCircle.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\MinimumDiameter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\NotRepresentableException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\Orientation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\PointLocation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\PointLocator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\RayCrossingCounter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\RayCrossingCounterDD.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\RobustDeterminant.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\distance\DiscreteFrechetDistance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\distance\DiscreteHausdorffDistance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\distance\DistanceToPoint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\distance\PointPairDistance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\locate\IndexedPointInAreaLocator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\locate\PointOnGeometryLocator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\locate\SimplePointInAreaLocator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmath.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathbig.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathdec.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathmisc.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathobjects.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathparser.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmaththreads.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathtypes.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathuint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathuint_noasm.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathuint_x86.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\algorithm\ttmath\ttmathuint_x86_64.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\constants.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\export.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\BinaryOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Coordinate.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Coordinate.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateArraySequence.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateArraySequenceFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateArraySequenceFactory.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateList.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateSequence.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateSequenceFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\CoordinateSequenceFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\DefaultCoordinateSequenceFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Dimension.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Envelope.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Envelope.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\FixedSizeCoordinateSequence.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Geometry.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\GeometryCollection.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\GeometryCollection.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\GeometryComponentFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\GeometryFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\GeometryFactory.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\GeometryFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\IntersectionMatrix.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\LineSegment.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\LineSegment.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\LineString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\LinearRing.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Location.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\MultiLineString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\MultiLineString.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\MultiPoint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\MultiPolygon.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\MultiPolygon.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Point.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Polygon.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\PrecisionModel.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\PrecisionModel.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\Triangle.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\AbstractPreparedPolygonContains.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\BasicPreparedGeometry.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedGeometry.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedGeometryFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedLineString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedLineStringIntersects.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedPoint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedPolygon.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedPolygonContains.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedPolygonContainsProperly.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedPolygonCovers.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedPolygonIntersects.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\prep\PreparedPolygonPredicate.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\ComponentCoordinateExtracter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\CoordinateOperation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\Densifier.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\GeometryCombiner.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\GeometryEditor.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\GeometryEditorOperation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\GeometryExtracter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\GeometryTransformer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\LinearComponentExtracter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\PointExtracter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\PolygonExtracter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\ShortCircuitedGeometryVisitor.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geom\util\SineStarFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomUtil.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Depth.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Depth.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\DirectedEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\DirectedEdge.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\DirectedEdgeStar.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Edge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\EdgeEnd.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\EdgeEndStar.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\EdgeIntersection.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\EdgeIntersectionList.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\EdgeList.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\EdgeNodingValidator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\EdgeRing.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\GeometryGraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\GeometryGraph.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\GraphComponent.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Label.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Label.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Node.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\NodeFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\NodeMap.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\PlanarGraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Position.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Quadrant.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\Quadrant.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\TopologyLocation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\TopologyLocation.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\EdgeSetIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\MonotoneChain.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\MonotoneChainEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\MonotoneChainIndexer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SegmentIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SegmentIntersector.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SimpleEdgeSetIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SimpleMCSweepLineIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SimpleSweepLineIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SweepLineEvent.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SweepLineEventObj.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraph\index\SweepLineSegment.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geomgraphindex.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\geosAlgorithm.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\ItemVisitor.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\SpatialIndex.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\bintree\Bintree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\bintree\Interval.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\bintree\Key.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\bintree\Node.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\bintree\NodeBase.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\bintree\Root.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\chain\MonotoneChain.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\chain\MonotoneChainBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\chain\MonotoneChainOverlapAction.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\chain\MonotoneChainSelectAction.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\intervalrtree\IntervalRTreeBranchNode.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\intervalrtree\IntervalRTreeLeafNode.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\intervalrtree\IntervalRTreeNode.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\intervalrtree\SortedPackedIntervalRTree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\quadtree\DoubleBits.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\quadtree\IntervalSize.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\quadtree\Key.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\quadtree\Node.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\quadtree\NodeBase.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\quadtree\Quadtree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\quadtree\Root.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\AbstractNode.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\AbstractSTRtree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\Boundable.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\BoundablePair.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\EnvelopeUtil.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\GeometryItemDistance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\Interval.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\ItemBoundable.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\ItemDistance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\SIRtree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\strtree\STRtree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\sweepline\SweepLineEvent.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\sweepline\SweepLineIndex.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\sweepline\SweepLineInterval.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\index\sweepline\SweepLineOverlapAction.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\indexBintree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\indexChain.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\indexQuadtree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\indexStrtree.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\indexSweepline.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\inline.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\ByteOrderDataInStream.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\ByteOrderDataInStream.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\ByteOrderValues.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\CLocalizer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\ParseException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\StringTokenizer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\WKBConstants.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\WKBReader.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\WKBWriter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\WKTReader.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\WKTReader.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\WKTWriter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\io\Writer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\ExtractLineByLocation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LengthIndexOfPoint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LengthIndexedLine.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LengthLocationMap.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LinearGeometryBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LinearIterator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LinearLocation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LocationIndexOfLine.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LocationIndexOfPoint.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\linearref\LocationIndexedLine.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\BasicSegmentString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\BasicSegmentString.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\FastNodingValidator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\FastSegmentSetIntersectionFinder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\GeometryNoder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\IntersectionAdder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\IntersectionFinderAdder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\IteratedNoder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\MCIndexNoder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\MCIndexNoder.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\MCIndexSegmentSetMutualIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\NodableSegmentString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\NodedSegmentString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\Noder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\NodingIntersectionFinder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\NodingValidator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\Octant.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\OrientedCoordinateArray.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\ScaledNoder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentIntersectionDetector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentNode.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentNodeList.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentPointComparator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentSetMutualIntersector.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SegmentStringUtil.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SimpleNoder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\SinglePassNoder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\snapround\HotPixel.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\snapround\HotPixel.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\snapround\MCIndexPointSnapper.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\snapround\MCIndexSnapRounder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\noding\snapround\SimpleSnapRounder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\nodingSnapround.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opBuffer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opDistance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opLinemerge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opOverlay.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opPolygonize.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opPredicate.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opRelate.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\opValid.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\GeometryGraphOperation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\IsSimpleOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\BufferBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\BufferInputLineSimplifier.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\BufferOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\BufferParameters.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\BufferSubgraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\OffsetCurveBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\OffsetCurveSetBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\OffsetSegmentGenerator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\OffsetSegmentString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\RightmostEdgeFinder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\buffer\SubgraphDepthLocater.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\distance\ConnectedElementLocationFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\distance\ConnectedElementPointFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\distance\DistanceOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\distance\FacetSequence.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\distance\FacetSequenceTreeBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\distance\GeometryLocation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\distance\IndexedFacetDistance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\intersection\Rectangle.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\intersection\RectangleIntersection.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\intersection\RectangleIntersectionBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\linemerge\EdgeString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\linemerge\LineMergeDirectedEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\linemerge\LineMergeEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\linemerge\LineMergeGraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\linemerge\LineMerger.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\linemerge\LineSequencer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\EdgeSetNoder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\ElevationMatrix.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\ElevationMatrixCell.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\LineBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\MaximalEdgeRing.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\MinimalEdgeRing.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\MinimalEdgeRing.inl" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\OverlayNodeFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\OverlayOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\PointBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\PolygonBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\snap\GeometrySnapper.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\snap\LineStringSnapper.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\snap\SnapIfNeededOverlayOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\snap\SnapOverlayOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\validate\FuzzyPointLocator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\validate\OffsetPointGenerator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\overlay\validate\OverlayResultValidator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\polygonize\BuildArea.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\polygonize\EdgeRing.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\polygonize\HoleAssigner.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\polygonize\PolygonizeDirectedEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\polygonize\PolygonizeEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\polygonize\PolygonizeGraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\polygonize\Polygonizer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\predicate\RectangleContains.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\predicate\RectangleIntersects.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\predicate\SegmentIntersectionTester.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\EdgeEndBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\EdgeEndBundle.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\EdgeEndBundleStar.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\RelateComputer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\RelateNode.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\RelateNodeFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\RelateNodeGraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\relate\RelateOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\sharedpaths\SharedPathsOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\union\CascadedPolygonUnion.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\union\CascadedUnion.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\union\CoverageUnion.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\union\GeometryListHolder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\union\OverlapUnion.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\union\PointGeometryUnion.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\union\UnaryUnionOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\ConnectedInteriorTester.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\ConsistentAreaTester.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\IsValidOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\MakeValid.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\QuadtreeNestedRingTester.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\RepeatedPointRemover.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\RepeatedPointTester.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\SimpleNestedRingTester.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\SweeplineNestedRingTester.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\operation\valid\TopologyValidationError.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\DirectedEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\DirectedEdgeStar.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\Edge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\GraphComponent.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\Node.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\NodeMap.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\PlanarGraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\Subgraph.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\planargraph\algorithm\ConnectedSubgraphFinder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\CommonBits.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\CommonBitsOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\CommonBitsRemover.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\EnhancedPrecisionOp.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\GeometryPrecisionReducer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\MinimumClearance.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\PrecisionReducerCoordinateOperation.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\precision\SimpleGeometryPrecisionReducer.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\profiler.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\DouglasPeuckerLineSimplifier.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\DouglasPeuckerSimplifier.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\LineSegmentIndex.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\TaggedLineSegment.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\TaggedLineString.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\TaggedLineStringSimplifier.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\TaggedLinesSimplifier.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\simplify\TopologyPreservingSimplifier.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\spatialIndex.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\DelaunayTriangulationBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\IncrementalDelaunayTriangulator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\VoronoiDiagramBuilder.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\LastFoundQuadEdgeLocator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\LocateFailureException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\QuadEdge.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\QuadEdgeLocator.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\QuadEdgeSubdivision.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\TrianglePredicate.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\TriangleVisitor.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\triangulate\quadedge\Vertex.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\unload.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\Assert.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\AssertionFailedException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\CoordinateArrayFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\GEOSException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\GeometricShapeFactory.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\IllegalArgumentException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\IllegalStateException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\Interrupt.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\Machine.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\TopologyException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\UniqueCoordinateArrayFilter.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\UnsupportedOperationException.h" />
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\include\geos\util\math.h" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\Angle.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\Area.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\BoundaryNodeRule.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\CGAlgorithmsDD.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\Centroid.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\ConvexHull.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\Distance.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\HCoordinate.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\InteriorPointArea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\InteriorPointLine.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\InteriorPointPoint.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\Intersection.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\Length.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\LineIntersector.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\MinimumBoundingCircle.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\MinimumDiameter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\NotRepresentableException.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\Orientation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\PointLocation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\PointLocator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\RayCrossingCounter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\RayCrossingCounterDD.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\RobustDeterminant.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\distance\DiscreteFrechetDistance.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\distance\DiscreteHausdorffDistance.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\distance\DistanceToPoint.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\locate\IndexedPointInAreaLocator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\locate\PointOnGeometryLocator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\algorithm\locate\SimplePointInAreaLocator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Coordinate.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\CoordinateArraySequence.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\CoordinateArraySequenceFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\CoordinateSequence.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\DefaultCoordinateSequenceFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Dimension.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Envelope.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Geometry.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\GeometryCollection.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\GeometryComponentFilter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\GeometryFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\IntersectionMatrix.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\LineSegment.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\LineString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\LinearRing.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Location.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\MultiLineString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\MultiPoint.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\MultiPolygon.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Point.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Polygon.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\PrecisionModel.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\Triangle.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\AbstractPreparedPolygonContains.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\BasicPreparedGeometry.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedGeometry.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedGeometryFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedLineString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedLineStringIntersects.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedPoint.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedPolygon.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedPolygonContains.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedPolygonContainsProperly.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedPolygonCovers.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedPolygonIntersects.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\prep\PreparedPolygonPredicate.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\ComponentCoordinateExtracter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\CoordinateOperation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\Densifier.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\GeometryCombiner.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\GeometryEditor.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\GeometryTransformer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\LinearComponentExtracter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\PointExtracter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\PolygonExtracter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\ShortCircuitedGeometryVisitor.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geom\util\SineStarFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\Depth.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\DirectedEdge.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/DirectedEdge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\DirectedEdgeStar.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/DirectedEdgeStar.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\Edge.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/Edge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\EdgeEnd.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\EdgeEndStar.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\EdgeIntersectionList.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\EdgeList.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\EdgeNodingValidator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\EdgeRing.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/EdgeRing.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\GeometryGraph.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\GraphComponent.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\Label.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\Node.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\NodeFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\NodeMap.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/NodeMap.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\PlanarGraph.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/PlanarGraph.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\Position.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\Quadrant.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\TopologyLocation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\MonotoneChainEdge.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\MonotoneChainIndexer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\SegmentIntersector.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\SimpleEdgeSetIntersector.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\SimpleMCSweepLineIntersector.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\SimpleSweepLineIntersector.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\SweepLineEvent.cpp">
+      <ObjectFileName>$(IntDir)/src/geomgraph/index/SweepLineEvent.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\geomgraph\index\SweepLineSegment.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\bintree\Bintree.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\bintree\Interval.cpp">
+      <ObjectFileName>$(IntDir)/src/index/bintree/Interval.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\bintree\Key.cpp">
+      <ObjectFileName>$(IntDir)/src/index/bintree/Key.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\bintree\Node.cpp">
+      <ObjectFileName>$(IntDir)/src/index/bintree/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\bintree\NodeBase.cpp">
+      <ObjectFileName>$(IntDir)/src/index/bintree/NodeBase.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\bintree\Root.cpp">
+      <ObjectFileName>$(IntDir)/src/index/bintree/Root.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\chain\MonotoneChain.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\chain\MonotoneChainBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\chain\MonotoneChainOverlapAction.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\chain\MonotoneChainSelectAction.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\intervalrtree\IntervalRTreeBranchNode.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\intervalrtree\IntervalRTreeLeafNode.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\intervalrtree\SortedPackedIntervalRTree.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\quadtree\DoubleBits.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\quadtree\IntervalSize.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\quadtree\Key.cpp">
+      <ObjectFileName>$(IntDir)/src/index/quadtree/Key.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\quadtree\Node.cpp">
+      <ObjectFileName>$(IntDir)/src/index/quadtree/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\quadtree\NodeBase.cpp">
+      <ObjectFileName>$(IntDir)/src/index/quadtree/NodeBase.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\quadtree\Quadtree.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\quadtree\Root.cpp">
+      <ObjectFileName>$(IntDir)/src/index/quadtree/Root.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\strtree\AbstractSTRtree.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\strtree\BoundablePair.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\strtree\EnvelopeUtil.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\strtree\GeometryItemDistance.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\strtree\Interval.cpp">
+      <ObjectFileName>$(IntDir)/src/index/strtree/Interval.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\strtree\SIRtree.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\strtree\STRtree.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\sweepline\SweepLineEvent.cpp">
+      <ObjectFileName>$(IntDir)/src/index/sweepline/SweepLineEvent.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\sweepline\SweepLineIndex.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\index\sweepline\SweepLineInterval.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\inlines.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\ByteOrderDataInStream.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\ByteOrderValues.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\CLocalizer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\ParseException.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\StringTokenizer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\Unload.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\WKBReader.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\WKBWriter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\WKTReader.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\WKTWriter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\io\Writer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\ExtractLineByLocation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LengthIndexOfPoint.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LengthIndexedLine.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LengthLocationMap.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LinearGeometryBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LinearIterator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LinearLocation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LocationIndexOfLine.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\linearref\LocationIndexOfPoint.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\BasicSegmentString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\FastNodingValidator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\FastSegmentSetIntersectionFinder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\GeometryNoder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\IntersectionAdder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\IntersectionFinderAdder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\IteratedNoder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\MCIndexNoder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\MCIndexSegmentSetMutualIntersector.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\NodedSegmentString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\NodingIntersectionFinder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\NodingValidator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\Octant.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\OrientedCoordinateArray.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\ScaledNoder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\SegmentIntersectionDetector.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\SegmentNode.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\SegmentNodeList.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\SegmentString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\SegmentStringUtil.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\SimpleNoder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\snapround\HotPixel.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\snapround\MCIndexPointSnapper.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\snapround\MCIndexSnapRounder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\noding\snapround\SimpleSnapRounder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\GeometryGraphOperation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\IsSimpleOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\BufferBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\BufferInputLineSimplifier.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\BufferOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\BufferParameters.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\BufferSubgraph.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\OffsetCurveBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\OffsetCurveSetBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\OffsetSegmentGenerator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\RightmostEdgeFinder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\buffer\SubgraphDepthLocater.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\distance\ConnectedElementLocationFilter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\distance\ConnectedElementPointFilter.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\distance\DistanceOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\distance\FacetSequence.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\distance\FacetSequenceTreeBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\distance\GeometryLocation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\distance\IndexedFacetDistance.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\intersection\Rectangle.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\intersection\RectangleIntersection.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\intersection\RectangleIntersectionBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\linemerge\EdgeString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\linemerge\LineMergeDirectedEdge.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\linemerge\LineMergeEdge.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\linemerge\LineMergeGraph.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\linemerge\LineMerger.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\linemerge\LineSequencer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\EdgeSetNoder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\ElevationMatrix.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\ElevationMatrixCell.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\LineBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\MaximalEdgeRing.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\MinimalEdgeRing.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\OverlayNodeFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\OverlayOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\PointBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\PolygonBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\snap\GeometrySnapper.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\snap\LineStringSnapper.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\snap\SnapIfNeededOverlayOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\snap\SnapOverlayOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\validate\FuzzyPointLocator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\validate\OffsetPointGenerator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\overlay\validate\OverlayResultValidator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\polygonize\BuildArea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\polygonize\EdgeRing.cpp">
+      <ObjectFileName>$(IntDir)/src/operation/polygonize/EdgeRing.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\polygonize\HoleAssigner.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\polygonize\PolygonizeDirectedEdge.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\polygonize\PolygonizeEdge.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\polygonize\PolygonizeGraph.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\polygonize\Polygonizer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\predicate\RectangleContains.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\predicate\RectangleIntersects.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\predicate\SegmentIntersectionTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\EdgeEndBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\EdgeEndBundle.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\EdgeEndBundleStar.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\RelateComputer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\RelateNode.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\RelateNodeFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\RelateNodeGraph.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\relate\RelateOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\sharedpaths\SharedPathsOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\union\CascadedPolygonUnion.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\union\CascadedUnion.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\union\CoverageUnion.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\union\OverlapUnion.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\union\PointGeometryUnion.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\union\UnaryUnionOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\ConnectedInteriorTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\ConsistentAreaTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\IndexedNestedRingTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\IsValidOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\MakeValid.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\QuadtreeNestedRingTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\RepeatedPointRemover.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\RepeatedPointTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\SimpleNestedRingTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\SweeplineNestedRingTester.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\operation\valid\TopologyValidationError.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\DirectedEdge.cpp">
+      <ObjectFileName>$(IntDir)/src/planargraph/DirectedEdge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\DirectedEdgeStar.cpp">
+      <ObjectFileName>$(IntDir)/src/planargraph/DirectedEdgeStar.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\Edge.cpp">
+      <ObjectFileName>$(IntDir)/src/planargraph/Edge.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\Node.cpp">
+      <ObjectFileName>$(IntDir)/src/planargraph/Node.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\NodeMap.cpp">
+      <ObjectFileName>$(IntDir)/src/planargraph/NodeMap.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\PlanarGraph.cpp">
+      <ObjectFileName>$(IntDir)/src/planargraph/PlanarGraph.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\Subgraph.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\planargraph\algorithm\ConnectedSubgraphFinder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\CommonBits.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\CommonBitsOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\CommonBitsRemover.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\EnhancedPrecisionOp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\GeometryPrecisionReducer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\MinimumClearance.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\PrecisionReducerCoordinateOperation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\precision\SimpleGeometryPrecisionReducer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\DouglasPeuckerLineSimplifier.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\DouglasPeuckerSimplifier.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\LineSegmentIndex.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\TaggedLineSegment.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\TaggedLineString.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\TaggedLineStringSimplifier.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\TaggedLinesSimplifier.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\simplify\TopologyPreservingSimplifier.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\DelaunayTriangulationBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\IncrementalDelaunayTriangulator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\VoronoiDiagramBuilder.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\quadedge\LastFoundQuadEdgeLocator.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\quadedge\LocateFailureException.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\quadedge\QuadEdge.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\quadedge\QuadEdgeSubdivision.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\quadedge\TrianglePredicate.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\triangulate\quadedge\Vertex.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\util\Assert.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\util\GeometricShapeFactory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\util\Interrupt.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\util\Profiler.cpp" />
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\src\util\math.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\code\3rdparty\geos-3.8.1\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{68F378AC-594E-374E-B79D-1F460C29043E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

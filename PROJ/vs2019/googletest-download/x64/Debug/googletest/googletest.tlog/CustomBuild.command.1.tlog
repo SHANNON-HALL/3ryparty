@@ -1,0 +1,164 @@
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-DOWNLOAD.RULE
+setlocal
+cd F:\code\3rdparty\PROJ\vs2019
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-CONFIGURE.RULE
+setlocal
+cd F:\code\3rdparty\PROJ\vs2019\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-BUILD.RULE
+setlocal
+cd F:\code\3rdparty\PROJ\vs2019\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-INSTALL.RULE
+setlocal
+cd F:\code\3rdparty\PROJ\vs2019\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\DE46FAB914AFC4C5C20CEA2872743ECC\GOOGLETEST-TEST.RULE
+setlocal
+cd F:\code\3rdparty\PROJ\vs2019\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\AB24AEA04594995E67B480DE73E2E356\GOOGLETEST-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/Debug/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch F:/code/3rdparty/PROJ/vs2019/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKEFILES\86E73607B782563F98D56EE857C31683\GOOGLETEST.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\GOOGLETEST-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/vs2019/googletest-download -BF:/code/3rdparty/PROJ/vs2019/googletest-download --check-stamp-file F:/code/3rdparty/PROJ/vs2019/googletest-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

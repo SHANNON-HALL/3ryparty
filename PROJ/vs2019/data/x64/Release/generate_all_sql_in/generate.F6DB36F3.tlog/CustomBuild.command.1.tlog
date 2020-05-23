@@ -1,0 +1,32 @@
+^F:\CODE\3RDPARTY\PROJ\VS2019\CMAKEFILES\C3998704FC05D54B1A83A6946711DA3B\ALL.SQL.IN.RULE
+setlocal
+cd F:\code\3rdparty\PROJ\PROJ-master\data
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DALL_SQL_IN=F:/code/3rdparty/PROJ/vs2019/data/all.sql.in -P F:/code/3rdparty/PROJ/PROJ-master/data/generate_all_sql_in.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\VS2019\CMAKEFILES\42ED9D374C0246E01251E4B6A2554EB5\GENERATE_ALL_SQL_IN.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CODE\3RDPARTY\PROJ\PROJ-MASTER\DATA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/data/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

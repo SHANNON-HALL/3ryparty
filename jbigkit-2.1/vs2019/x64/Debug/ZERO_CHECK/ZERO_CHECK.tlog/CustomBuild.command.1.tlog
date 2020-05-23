@@ -1,0 +1,10 @@
+^F:\CODE\3RDPARTY\JBIGKIT-2.1\VS2019\CMAKEFILES\7495CE86EAE58A829C27C9A411A16225\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/jbigkit-2.1/jbigkit-2.1 -BF:/code/3rdparty/jbigkit-2.1/vs2019 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/code/3rdparty/jbigkit-2.1/vs2019/jbigkit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

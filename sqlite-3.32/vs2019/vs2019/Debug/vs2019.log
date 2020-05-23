@@ -1,0 +1,4 @@
+﻿  shell.c
+F:\code\3rdparty\sqlite-3.32\vs2019\vs2019\shell.c(17084,49): warning C4819: 该文件包含不能在当前代码页(0)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+F:\code\3rdparty\sqlite-3.32\vs2019\vs2019\shell.c(17097,49): warning C4819: 该文件包含不能在当前代码页(0)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  vs2019.vcxproj -> F:\code\3rdparty\sqlite-3.32\vs2019\Debug\vs2019.exe

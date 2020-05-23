@@ -1,0 +1,10 @@
+^F:\CODE\3RDPARTY\GIFLIB-5.2.1\VS2019\CMAKEFILES\A7FBE4F690088934C35FCBF725D3E1F9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/giflib-5.2.1/giflib-5.2.1 -BF:/code/3rdparty/giflib-5.2.1/vs2019 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/code/3rdparty/giflib-5.2.1/vs2019/giflib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\ceos2\</FILEPATH>
+      <FILENAME>ceos.c</FILENAME>
+      <LINE>233</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>SetCeosField</FUNCTION>
+    <DECORATED>SetCeosField</DECORATED>
+    <FUNCLINE>226</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

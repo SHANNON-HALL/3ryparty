@@ -1,0 +1,7 @@
+﻿  Building Custom Rule F:/code/3rdparty/jbigkit-2.1/jbigkit-2.1/CMakeLists.txt
+  jbig85.c
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig85.c(752,23): warning C4244: “=”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+  jbig_ar.c
+  正在生成代码...
+F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig85.c(903,31): warning C4267: “-=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  libjbig85.vcxproj -> F:\code\3rdparty\jbigkit-2.1\vs2019\Debug\libjbig85.lib

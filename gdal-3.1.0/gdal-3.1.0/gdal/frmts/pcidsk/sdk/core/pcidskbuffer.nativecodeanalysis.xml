@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\core\</FILEPATH>
+      <FILENAME>pcidskbuffer.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“buffer”可能是“0”: 这不符合函数“memcpy”的规范。</DESCRIPTION>
+    <FUNCTION>PCIDSK::PCIDSKBuffer::{ctor}</FUNCTION>
+    <DECORATED>??0PCIDSKBuffer@PCIDSK@@QEAA@PEBDH@Z</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\core\</FILEPATH>
+        <FILENAME>pcidskbuffer.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\core\</FILEPATH>
+        <FILENAME>pcidskbuffer.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\core\</FILEPATH>
+        <FILENAME>pcidskbuffer.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\core\</FILEPATH>
+        <FILENAME>pcidskbuffer.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\core\</FILEPATH>
+        <FILENAME>pcidskbuffer.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“buffer”不应为 NULL，因为这与“memcpy”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

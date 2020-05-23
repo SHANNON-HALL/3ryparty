@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig85.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig_ar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\libjbig\jbig_ar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\jbigkit-2.1\jbigkit-2.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{20780ED0-FF7D-3E8A-82C9-32D335A1015C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{971EA5E6-1B48-30D8-8B67-C2FD8BBE9535}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

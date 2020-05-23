@@ -1,0 +1,56 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindCygwin.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPerl.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/CurlSymbolHiding.cmake
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/FindLibSSH2.cmake
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/Macros.cmake
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/OtherTests.cmake
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/Platforms/WindowsCache.cmake
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/Utilities.cmake
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/cmake_uninstall.cmake.in
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMake/curl-config.cmake.in
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/CMakeLists.txt
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/curl-config.in
+F:/code/3rdparty/curl-7.70.0/curl-7.70.0/libcurl.pc.in
+F:/code/3rdparty/curl-7.70.0/vs2019/CMakeFiles/3.17.1/CMakeCCompiler.cmake
+F:/code/3rdparty/curl-7.70.0/vs2019/CMakeFiles/3.17.1/CMakeRCCompiler.cmake
+F:/code/3rdparty/curl-7.70.0/vs2019/CMakeFiles/3.17.1/CMakeSystem.cmake

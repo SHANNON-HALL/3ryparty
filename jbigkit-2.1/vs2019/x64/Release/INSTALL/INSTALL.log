@@ -1,0 +1,11 @@
+﻿  -- Install configuration: "Release"
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/lib/libjbig.lib
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/include/jbig_ar.h
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/include/jbig.h
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/lib/libjbig85.lib
+  -- Up-to-date: F:/code/3rdparty/jbigkit-2.1/install/include/jbig_ar.h
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/include/jbig85.h
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/bin/pbmtojbg.exe
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/bin/pbmtojbg85.exe
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/bin/jbgtopbm.exe
+  -- Installing: F:/code/3rdparty/jbigkit-2.1/install/bin/jbgtopbm85.exe

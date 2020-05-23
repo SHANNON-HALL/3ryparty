@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\gcore\</FILEPATH>
+      <FILENAME>gdalmultidim.cpp</FILENAME>
+      <LINE>798</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“const unsigned char”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLSPrintf”。</DESCRIPTION>
+    <FUNCTION>GDALExtendedDataType::CopyValue</FUNCTION>
+    <DECORATED>?CopyValue@GDALExtendedDataType@@SA_NPEBXAEBV1@PEAX1@Z</DECORATED>
+    <FUNCLINE>768</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\gcore\</FILEPATH>
+      <FILENAME>gdalmultidim.cpp</FILENAME>
+      <LINE>801</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“const unsigned short”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLSPrintf”。</DESCRIPTION>
+    <FUNCTION>GDALExtendedDataType::CopyValue</FUNCTION>
+    <DECORATED>?CopyValue@GDALExtendedDataType@@SA_NPEBXAEBV1@PEAX1@Z</DECORATED>
+    <FUNCLINE>768</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

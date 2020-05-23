@@ -1,0 +1,19 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/test/CMakeLists.txt
+  defer_strile_loading.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(82,66): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(93,57): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(127,73): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(146,70): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(150,71): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(184,64): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(202,70): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(206,71): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(236,63): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(240,66): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(249,69): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(253,72): warning C4244: “=”: 从“uint64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(102,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\test\defer_strile_loading.c(289,1): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(381): message : 参见“unlink”的声明
+  defer_strile_loading.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\test\Debug\defer_strile_loading.exe

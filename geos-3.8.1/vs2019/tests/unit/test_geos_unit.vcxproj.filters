@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\AngleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\AreaTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\computeOrientationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\isCCWTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\isPointInRingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\CGAlgorithms\signedAreaTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\ConvexHullTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\InteriorPointAreaTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\IntersectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\LengthTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\LocatePointInRingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\MinimumBoundingCircleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\MinimumDiameterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\OrientationIndexFailureTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\PointLocatorTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\RobustLineIntersectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\RobustLineIntersectorTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\distance\DiscreteFrechetDistanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\algorithm\distance\DiscreteHausdorffDistanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSBufferTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSBuildAreaTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSCAPIDefinesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSClipByRectTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSContainsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSConvexHullTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSCoordSeqTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSCoverageUnionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSDelaunayTriangulationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSDistanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSEqualsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSFrechetDistanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeomFromWKBTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeomToWKTTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_createCollectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_createTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_extentTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_extractUniquePointsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGeom_setPrecisionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSGetCentroidTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSHausdorffDistanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSInterpolateTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSInterruptTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSIntersectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSIntersectsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSLineString_PointTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMakeValidTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumBoundingCircleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumClearanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumRectangleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSMinimumWidthTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSNearestPointsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSNodeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSOffsetCurveTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSOrientationIndexTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSPointOnSurfaceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSPolygonizeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSPreparedGeometryTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSRelateBoundaryNodeRuleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSRelatePatternMatchTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSReverseTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSTRtreeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSegmentIntersectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSharedPathsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSimplifyTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSSnapTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSUnaryUnionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSUserDataTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSVoronoiDiagramTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSWithinTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSisClosedTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\capi\GEOSisValidDetailTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateArraySequenceFactoryTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateArraySequenceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateListTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\CoordinateTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\DimensionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\EnvelopeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\FixedSizeCoordinateSequenceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\cloneTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\coversTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\equalsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\isRectangleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\normalizeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\Geometry\touchesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryCollectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryComponentFilterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryFactoryTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\GeometryFilterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\IntersectionMatrixTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LineSegmentTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LineStringTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LinearRingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\LocationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\MultiLineStringTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\MultiPointTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\MultiPolygonTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\PointTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\PolygonTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\PrecisionModelTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\TriangleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\prep\PreparedGeometry\touchesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\prep\PreparedGeometryFactoryTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geom\util\GeometryExtracterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\geos_unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\index\quadtree\DoubleBitsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\index\strtree\SIRtreeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\ByteOrderValuesTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKBReaderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKBWriterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKTReaderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WKTWriterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\io\WriterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\linearref\LengthIndexedLineTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\BasicSegmentStringTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\NodedSegmentStringTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\OrientedCoordinateArrayTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\SegmentNodeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\SegmentPointComparatorTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\snapround\HotPixelTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\noding\snapround\MCIndexSnapRounderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\IsSimpleOpTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\buffer\BufferBuilderTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\buffer\BufferOpTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\buffer\BufferParametersTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\distance\DistanceOpTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\distance\IndexedFacetDistanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\geounion\CascadedPolygonUnionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\geounion\CoverageUnionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\geounion\UnaryUnionOpTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\intersection\RectangleIntersectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\linemerge\LineMergerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\linemerge\LineSequencerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\OverlayOpUnionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\snap\GeometrySnapperTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\snap\LineStringSnapperTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\validate\FuzzyPointLocatorTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\validate\OffsetPointGeneratorTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\overlay\validate\OverlayResultValidatorTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\polygonize\PolygonizeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\sharedpaths\SharedPathsOpTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\IsValidOpTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\RepeatedPointRemoverTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\ValidClosedRingTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\operation\valid\ValidSelfTouchingRingFormingHoleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\precision\CommonBitsTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\precision\GeometryPrecisionReducerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\precision\SimpleGeometryPrecisionReducerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\simplify\DouglasPeuckerSimplifierTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\simplify\TopologyPreservingSimplifierTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\DelaunayTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\VoronoiTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\quadedge\QuadEdgeSubdivisionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\quadedge\QuadEdgeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\triangulate\quadedge\VertexTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\util\UniqueCoordinateArrayFilterTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\unit\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6FFB9399-413E-36CD-A2F5-56C79056165F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

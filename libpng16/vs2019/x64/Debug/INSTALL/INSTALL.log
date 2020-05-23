@@ -1,0 +1,15 @@
+﻿  -- Install configuration: "Debug"
+  -- Installing: F:/code/3rdparty/libpng16/install/lib/libpng16d.lib
+  -- Installing: F:/code/3rdparty/libpng16/install/bin/libpng16d.dll
+  -- Installing: F:/code/3rdparty/libpng16/install/lib/libpng16_staticd.lib
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/include/png.h
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/include/pngconf.h
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/include/pnglibconf.h
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/include/libpng16/png.h
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/include/libpng16/pngconf.h
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/include/libpng16/pnglibconf.h
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/share/man/man3/libpng.3
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/share/man/man3/libpngpf.3
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/share/man/man5/png.5
+  -- Up-to-date: F:/code/3rdparty/libpng16/install/lib/libpng/libpng16.cmake
+  -- Installing: F:/code/3rdparty/libpng16/install/lib/libpng/libpng16-debug.cmake

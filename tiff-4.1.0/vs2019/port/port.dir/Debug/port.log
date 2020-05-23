@@ -1,0 +1,6 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/port/CMakeLists.txt
+  dummy.c
+  getopt.c
+  strcasecmp.c
+  正在生成代码...
+  port.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\port\Debug\portd.lib

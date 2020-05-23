@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\de46fab914afc4c5c20cea2872743ecc\googletest-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\ab24aea04594995e67b480de73e2e356\googletest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\86e73607b782563f98d56ee857c31683\googletest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\code\3rdparty\PROJ\vs2019\googletest-download\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2105B326-0654-3F42-9D71-E15647D6045E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

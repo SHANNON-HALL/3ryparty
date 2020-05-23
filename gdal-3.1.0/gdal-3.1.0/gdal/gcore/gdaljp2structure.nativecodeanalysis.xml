@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\gcore\</FILEPATH>
+      <FILENAME>gdaljp2structure.cpp</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned char”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLSPrintf”。</DESCRIPTION>
+    <FUNCTION>AddField</FUNCTION>
+    <DECORATED>?AddField@@YAXPEAUCPLXMLNode@@AEAPEAU1@PEBDE2@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\gcore\</FILEPATH>
+      <FILENAME>gdaljp2structure.cpp</FILENAME>
+      <LINE>123</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned short”作为 _Param_(2) 传递，但需要使用一些 signed 类型来调用“CPLSPrintf”。</DESCRIPTION>
+    <FUNCTION>AddField</FUNCTION>
+    <DECORATED>?AddField@@YAXPEAUCPLXMLNode@@AEAPEAU1@PEBDG2@Z</DECORATED>
+    <FUNCLINE>117</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

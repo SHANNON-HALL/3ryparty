@@ -1,0 +1,7 @@
+备注：我修改了makejsln.v16和makejvcx.v16,增加了debug的编译工程.我分别列了修改前后。因为我编译的是VS2019，找了最高版本的修改，若用户使用的VS版本低于v16(VS2015)则修改对应的make文件
+
+1、打开VS2019 x64命令提示符：“x64_x86 Cross Tools Command Prompt for VS 2019”
+2、nmake -f makefile.vs setup-v16
+3、打开jpeg.sln，编译debug和release两个x64版本。
+4、手动拷出lib和头文件 
+此处debug的库比release的小很多，原因是release的库针对各平台做了很多优化分支，比debug要大。

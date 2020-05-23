@@ -1,0 +1,20 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  tiffcp.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(478,1): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(395): message : 参见“setbuf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(801,72): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(796,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1393,22): warning C4244: “函数”: 从“int64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1397,14): warning C4244: “函数”: 从“int64”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1358,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1359,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1410,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1411,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1558,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1559,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1681,17): warning C4244: “+=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1611,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1613,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1614,1): warning C4244: “初始化”: 从“tsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcp.c(1657,1): warning C4244: “初始化”: 从“tsize_t”转换到“int”，可能丢失数据
+  tiffcp.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Debug\tiffcp.exe

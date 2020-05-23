@@ -1,0 +1,144 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  tiffcrop.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(774,3): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1208,69): warning C4244: “函数”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1235,3): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1757,43): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1764,52): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1711,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1713,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1716,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : 参见“sscanf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1743,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1745,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1771,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1778,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1795,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1801,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1825,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1827,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1904,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1906,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1970,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263): message : 参见“sscanf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(1972,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2074,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2076,3): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(440): message : 参见“strtok”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2129,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2137,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2318,3): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2337,3): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2507,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2544,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2579,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2581,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2616,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2618,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2652,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(2654,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3119,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3121,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3123,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3500,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3502,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3504,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3694,72): warning C4244: “=”: 从“tmsize_t”转换到“int32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3695,50): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3683,1): warning C4244: “初始化”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3824,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3829,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3930,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(3936,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4042,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4048,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4169,29): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4171,29): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4173,29): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4216,60): warning C4244: “函数”: 从“uint64”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4218,56): warning C4244: “函数”: 从“uint64”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4219,56): warning C4244: “函数”: 从“uint64”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4179,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4185,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4349,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4354,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4454,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4460,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4566,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4572,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4694,29): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4696,29): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4698,29): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4741,60): warning C4244: “函数”: 从“uint64”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4743,56): warning C4244: “函数”: 从“uint64”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4744,56): warning C4244: “函数”: 从“uint64”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4704,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4710,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4855,69): warning C4244: “=”: 从“tmsize_t”转换到“int32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4967,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(4983,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : 参见“strcpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(5078,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : 参见“sprintf”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(5497,81): warning C4244: “=”: 从“double”转换到“int32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(5524,66): warning C4244: “=”: 从“double”转换到“int32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(5926,38): warning C4244: “=”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(6028,30): warning C4244: “=”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(6033,40): warning C4244: “=”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(6072,31): warning C4244: “=”: 从“tmsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(7275,38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(7269,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(7416,33): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(7518,35): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(7955,38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(7949,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(8342,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(8344,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(8346,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(8950,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(8952,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffcrop.c(8954,34): warning C4244: “=”: 从“uint64”转换到“uint8”，可能丢失数据
+  tiffcrop.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Debug\tiffcrop.exe

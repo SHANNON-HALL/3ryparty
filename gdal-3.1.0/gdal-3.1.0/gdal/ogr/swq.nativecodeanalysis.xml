@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\</FILEPATH>
+      <FILENAME>swq.cpp</FILENAME>
+      <LINE>224</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isalnum”。</DESCRIPTION>
+    <FUNCTION>swqlex</FUNCTION>
+    <DECORATED>?swqlex@@YAHPEAPEAVswq_expr_node@@PEAVswq_parse_context@@@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\</FILEPATH>
+      <FILENAME>swq.cpp</FILENAME>
+      <LINE>233</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isalnum”。</DESCRIPTION>
+    <FUNCTION>swqlex</FUNCTION>
+    <DECORATED>?swqlex@@YAHPEAPEAVswq_expr_node@@PEAVswq_parse_context@@@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

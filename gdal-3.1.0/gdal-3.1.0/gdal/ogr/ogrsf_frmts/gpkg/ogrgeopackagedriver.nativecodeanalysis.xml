@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\gpkg\</FILEPATH>
+      <FILENAME>ogrgeopackagedriver.cpp</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(9) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>OGRGeoPackageDriverIdentify</FUNCTION>
+    <DECORATED>?OGRGeoPackageDriverIdentify@@YAHPEAVGDALOpenInfo@@_N@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\gpkg\</FILEPATH>
+      <FILENAME>ogrgeopackagedriver.cpp</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(10) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>OGRGeoPackageDriverIdentify</FUNCTION>
+    <DECORATED>?OGRGeoPackageDriverIdentify@@YAHPEAVGDALOpenInfo@@_N@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\gpkg\</FILEPATH>
+      <FILENAME>ogrgeopackagedriver.cpp</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(11) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>OGRGeoPackageDriverIdentify</FUNCTION>
+    <DECORATED>?OGRGeoPackageDriverIdentify@@YAHPEAVGDALOpenInfo@@_N@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\gpkg\</FILEPATH>
+      <FILENAME>ogrgeopackagedriver.cpp</FILENAME>
+      <LINE>169</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(8) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>OGRGeoPackageDriverIdentify</FUNCTION>
+    <DECORATED>?OGRGeoPackageDriverIdentify@@YAHPEAVGDALOpenInfo@@_N@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\gpkg\</FILEPATH>
+      <FILENAME>ogrgeopackagedriver.cpp</FILENAME>
+      <LINE>169</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(9) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>OGRGeoPackageDriverIdentify</FUNCTION>
+    <DECORATED>?OGRGeoPackageDriverIdentify@@YAHPEAVGDALOpenInfo@@_N@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\gpkg\</FILEPATH>
+      <FILENAME>ogrgeopackagedriver.cpp</FILENAME>
+      <LINE>169</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(10) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>OGRGeoPackageDriverIdentify</FUNCTION>
+    <DECORATED>?OGRGeoPackageDriverIdentify@@YAHPEAVGDALOpenInfo@@_N@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

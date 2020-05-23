@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidsksegment.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“16436”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKSegment::MoveData</FUNCTION>
+    <DECORATED>?MoveData@CPCIDSKSegment@PCIDSK@@IEAAX_K00@Z</DECORATED>
+    <FUNCLINE>350</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

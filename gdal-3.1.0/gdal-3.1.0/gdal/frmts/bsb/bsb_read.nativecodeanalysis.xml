@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\bsb\</FILEPATH>
+      <FILENAME>bsb_read.c</FILENAME>
+      <LINE>689</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(5) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>BSBSeekAndCheckScanlineNumber</FUNCTION>
+    <DECORATED>BSBSeekAndCheckScanlineNumber</DECORATED>
+    <FUNCLINE>673</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\bsb\</FILEPATH>
+      <FILENAME>bsb_read.c</FILENAME>
+      <LINE>695</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>BSBSeekAndCheckScanlineNumber</FUNCTION>
+    <DECORATED>BSBSeekAndCheckScanlineNumber</DECORATED>
+    <FUNCLINE>673</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\bsb\</FILEPATH>
+      <FILENAME>bsb_read.c</FILENAME>
+      <LINE>1044</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned char”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“VSIFPrintfL”。</DESCRIPTION>
+    <FUNCTION>BSBWritePCT</FUNCTION>
+    <DECORATED>BSBWritePCT</DECORATED>
+    <FUNCLINE>1015</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\bsb\</FILEPATH>
+      <FILENAME>bsb_read.c</FILENAME>
+      <LINE>1044</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned char”作为 _Param_(5) 传递，但需要使用一些 signed 类型来调用“VSIFPrintfL”。</DESCRIPTION>
+    <FUNCTION>BSBWritePCT</FUNCTION>
+    <DECORATED>BSBWritePCT</DECORATED>
+    <FUNCLINE>1015</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\bsb\</FILEPATH>
+      <FILENAME>bsb_read.c</FILENAME>
+      <LINE>1044</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned char”作为 _Param_(6) 传递，但需要使用一些 signed 类型来调用“VSIFPrintfL”。</DESCRIPTION>
+    <FUNCTION>BSBWritePCT</FUNCTION>
+    <DECORATED>BSBWritePCT</DECORATED>
+    <FUNCLINE>1015</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\xmltester\XMLTester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\xmltester\BufferResultMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\xmltester\SingleSidedBufferResultMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\xmltester\tinyxml2\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\xmltester\tinyxml2\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\geos-3.8.1\geos-3.8.1\tests\xmltester\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5A87E929-40E3-3FC7-A538-06E4BEC1F06E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6FFB9399-413E-36CD-A2F5-56C79056165F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

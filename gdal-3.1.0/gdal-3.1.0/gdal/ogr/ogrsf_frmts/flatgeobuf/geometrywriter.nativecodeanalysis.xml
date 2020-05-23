@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\flatgeobuf\</FILEPATH>
+      <FILENAME>geometrywriter.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>101</COLUMN>
+    </SFA>
+    <DEFECTCODE>6268</DEFECTCODE>
+    <DESCRIPTION>错误的运算顺序: (&lt;TYPE1&gt;)(&lt;TYPE2&gt;)x + y。(&lt;TYPE1&gt;)((&lt;TYPE2&gt;)x + y)中可能缺少括号。</DESCRIPTION>
+    <FUNCTION>ogr_flatgeobuf::GeometryWriter::writeSimpleCurve</FUNCTION>
+    <DECORATED>?writeSimpleCurve@GeometryWriter@ogr_flatgeobuf@@AEAAIPEBVOGRSimpleCurve@@@Z</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

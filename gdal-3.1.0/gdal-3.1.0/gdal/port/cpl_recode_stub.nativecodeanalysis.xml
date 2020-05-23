@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_recode_stub.cpp</FILENAME>
+      <LINE>1152</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>CPLWin32Recode</FUNCTION>
+    <DECORATED>?CPLWin32Recode@@YAPEADPEBDII@Z</DECORATED>
+    <FUNCLINE>1139</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_recode_stub.cpp</FILENAME>
+      <LINE>1183</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>CPLWin32Recode</FUNCTION>
+    <DECORATED>?CPLWin32Recode@@YAPEADPEBDII@Z</DECORATED>
+    <FUNCLINE>1139</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

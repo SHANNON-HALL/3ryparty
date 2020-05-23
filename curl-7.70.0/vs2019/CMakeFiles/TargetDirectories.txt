@@ -1,0 +1,8 @@
+F:/code/3rdparty/curl-7.70.0/vs2019/CMakeFiles/uninstall.dir
+F:/code/3rdparty/curl-7.70.0/vs2019/CMakeFiles/INSTALL.dir
+F:/code/3rdparty/curl-7.70.0/vs2019/CMakeFiles/ALL_BUILD.dir
+F:/code/3rdparty/curl-7.70.0/vs2019/CMakeFiles/ZERO_CHECK.dir
+F:/code/3rdparty/curl-7.70.0/vs2019/lib/CMakeFiles/libcurl.dir
+F:/code/3rdparty/curl-7.70.0/vs2019/lib/CMakeFiles/INSTALL.dir
+F:/code/3rdparty/curl-7.70.0/vs2019/src/CMakeFiles/curl.dir
+F:/code/3rdparty/curl-7.70.0/vs2019/src/CMakeFiles/INSTALL.dir

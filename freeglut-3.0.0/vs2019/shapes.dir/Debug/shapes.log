@@ -1,0 +1,5 @@
+﻿  Building Custom Rule F:/code/3rdparty/freeglut-3.0.0/freeglut-3.0.0/CMakeLists.txt
+  shapes.c
+  glmatrix.c
+  正在生成代码...
+  shapes.vcxproj -> F:\code\3rdparty\freeglut-3.0.0\vs2019\bin\Debug\shapesd.exe

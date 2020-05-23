@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\gtiff\</FILEPATH>
+      <FILENAME>cogdriver.cpp</FILENAME>
+      <LINE>211</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 对 32 位值进行移位操作，然后强制转换为 64 位值。 结果可能不是预期值。</DESCRIPTION>
+    <FUNCTION>COGGetWarpingCharacteristics</FUNCTION>
+    <DECORATED>?COGGetWarpingCharacteristics@@YA_NPEAVGDALDataset@@PEBQEBDAEAVCPLString@@2AEAH3AEAN444@Z</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\gtiff\</FILEPATH>
+      <FILENAME>cogdriver.cpp</FILENAME>
+      <LINE>227</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 对 32 位值进行移位操作，然后强制转换为 64 位值。 结果可能不是预期值。</DESCRIPTION>
+    <FUNCTION>COGGetWarpingCharacteristics</FUNCTION>
+    <DECORATED>?COGGetWarpingCharacteristics@@YA_NPEAVGDALDataset@@PEBQEBDAEAVCPLString@@2AEAH3AEAN444@Z</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

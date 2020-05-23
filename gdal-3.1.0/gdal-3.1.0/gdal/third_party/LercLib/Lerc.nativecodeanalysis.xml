@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\third_party\LercLib\</FILEPATH>
+      <FILENAME>Lerc2.h</FILENAME>
+      <LINE>143</LINE>
+      <COLUMN>79</COLUMN>
+    </SFA>
+    <DEFECTCODE>6240</DEFECTCODE>
+    <DESCRIPTION>(&lt;表达式&gt; &amp;&amp; &lt;非零常量&gt;)的计算结果始终等于 &lt;表达式&gt; 的结果。 是否原本要使用按位与运算符?</DESCRIPTION>
+    <FUNCTION>GDAL_LercNS::Lerc2::IsLittleEndianSystem</FUNCTION>
+    <DECORATED>?IsLittleEndianSystem@Lerc2@GDAL_LercNS@@CA_NXZ</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

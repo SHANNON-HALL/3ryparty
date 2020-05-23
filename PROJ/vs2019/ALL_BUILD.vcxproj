@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1DC3A2C2-1DCD-3E50-8549-32627A40F4EB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\PROJ-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\FindSqlite3.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjConfig.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjInstallPath.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjMac.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjTest.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjUtilities.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjVersion.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\policies.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\proj_config.cmake.in;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfig.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfigVersion.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-debug.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-release.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\PROJ\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\FindSqlite3.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjConfig.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjInstallPath.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjMac.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjTest.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjUtilities.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjVersion.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\policies.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\proj_config.cmake.in;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfig.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfigVersion.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-debug.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-release.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\PROJ\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\FindSqlite3.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjConfig.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjInstallPath.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjMac.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjTest.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjUtilities.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjVersion.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\policies.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\proj_config.cmake.in;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfig.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfigVersion.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-debug.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-release.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\PROJ\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\FindSqlite3.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjConfig.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjInstallPath.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjMac.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjTest.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjUtilities.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\ProjVersion.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\policies.cmake;F:\code\3rdparty\PROJ\PROJ-master\cmake\proj_config.cmake.in;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeCXXCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeRCCompiler.cmake;F:\code\3rdparty\PROJ\vs2019\CMakeFiles\3.17.1\CMakeSystem.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfig.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLConfigVersion.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-debug.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets-release.cmake;F:\code\3rdparty\curl-7.70.0\install\lib\cmake\CURL\CURLTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\PROJ\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{6099C37A-8C1C-378A-B186-73AFCC5BE56D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\bin_projsync.vcxproj">
+      <Project>{01874423-B1BA-3583-B69B-A187EC9ADB9E}</Project>
+      <Name>bin_projsync</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\binproj.vcxproj">
+      <Project>{C959E3E8-0373-30A8-9C29-71434C90D5CA}</Project>
+      <Name>binproj</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\binprojinfo.vcxproj">
+      <Project>{B6489A2F-EC54-31C9-B2E2-47E0D43B8E57}</Project>
+      <Name>binprojinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\cct.vcxproj">
+      <Project>{E24F8EA5-B5D8-372D-814D-B030BCD6411F}</Project>
+      <Name>cct</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\cs2cs.vcxproj">
+      <Project>{2DDED0FC-62FE-3BB3-9CC1-8377F376C290}</Project>
+      <Name>cs2cs</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\data\generate_all_sql_in.vcxproj">
+      <Project>{F6DB36F3-E87A-367A-8297-0299543868D6}</Project>
+      <Name>generate_all_sql_in</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\data\generate_proj_db.vcxproj">
+      <Project>{5A743F38-52C8-371E-9E9C-28672F783B7E}</Project>
+      <Name>generate_proj_db</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\geod.vcxproj">
+      <Project>{CE105CCA-64F5-3228-A4C3-1DBC6643594B}</Project>
+      <Name>geod</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\geodtest.vcxproj">
+      <Project>{76559722-CE98-31CC-B194-8F5FCE6252A9}</Project>
+      <Name>geodtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\gie.vcxproj">
+      <Project>{22E4385A-1560-375E-8052-D2277628FF28}</Project>
+      <Name>gie</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\gie_self_tests.vcxproj">
+      <Project>{8B8D6410-E8C8-3974-8797-1776E6DFA747}</Project>
+      <Name>gie_self_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\pj_phi2_test.vcxproj">
+      <Project>{8299AD00-9271-38E6-B7E4-A03D199F943A}</Project>
+      <Name>pj_phi2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\src\proj.vcxproj">
+      <Project>{03FC1D1E-15A9-357C-8E30-23C8EAE59F5A}</Project>
+      <Name>proj</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\proj_angular_io_test.vcxproj">
+      <Project>{DB7B0848-817A-3CD5-814A-C016A6B2A315}</Project>
+      <Name>proj_angular_io_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\proj_context_test.vcxproj">
+      <Project>{599D540D-BF2C-382D-9BE1-6B5E7DBE4196}</Project>
+      <Name>proj_context_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\proj_errno_string_test.vcxproj">
+      <Project>{75DA9E0B-0476-37D3-B8E6-F39E225947F4}</Project>
+      <Name>proj_errno_string_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\proj_pj_transform_test.vcxproj">
+      <Project>{FC91593A-6CDD-3395-B433-2A93687EB6AE}</Project>
+      <Name>proj_pj_transform_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\proj_test_cpp_api.vcxproj">
+      <Project>{B90A3C51-2409-3765-B57D-339766167CBB}</Project>
+      <Name>proj_test_cpp_api</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\test_defmodel.vcxproj">
+      <Project>{C25C1310-0A59-3F43-A527-026892140967}</Project>
+      <Name>test_defmodel</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\test\unit\test_network.vcxproj">
+      <Project>{7B0CDBD0-499E-3598-AF61-04EC6D095782}</Project>
+      <Name>test_network</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

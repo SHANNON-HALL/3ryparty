@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\gcore\</FILEPATH>
+      <FILENAME>rawdataset.cpp</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(6) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>RawRasterBand::{ctor}</FUNCTION>
+    <DECORATED>??0RawRasterBand@@QEAA@PEAVGDALDataset@@HPEAU_iobuf@@_KHHW4GDALDataType@@W4ByteOrder@0@W4OwnFP@0@@Z</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\gcore\</FILEPATH>
+      <FILENAME>rawdataset.cpp</FILENAME>
+      <LINE>166</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(3) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>RawRasterBand::{ctor}</FUNCTION>
+    <DECORATED>??0RawRasterBand@@QEAA@PEAU_iobuf@@_KHHW4GDALDataType@@W4ByteOrder@0@HHW4OwnFP@0@@Z</DECORATED>
+    <FUNCLINE>142</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,55 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/DartConfiguration.tcl.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindCURL.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindTIFF.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/SelectLibraryConfigurations.cmake
+F:/code/3rdparty/PROJ/PROJ-master/CMakeLists.txt
+F:/code/3rdparty/PROJ/PROJ-master/cmake/FindSqlite3.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/ProjConfig.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/ProjInstallPath.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/ProjMac.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/ProjTest.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/ProjUtilities.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/ProjVersion.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/policies.cmake
+F:/code/3rdparty/PROJ/PROJ-master/cmake/proj_config.cmake.in
+F:/code/3rdparty/PROJ/vs2019/CMakeFiles/3.17.1/CMakeCCompiler.cmake
+F:/code/3rdparty/PROJ/vs2019/CMakeFiles/3.17.1/CMakeCXXCompiler.cmake
+F:/code/3rdparty/PROJ/vs2019/CMakeFiles/3.17.1/CMakeRCCompiler.cmake
+F:/code/3rdparty/PROJ/vs2019/CMakeFiles/3.17.1/CMakeSystem.cmake
+F:/code/3rdparty/curl-7.70.0/install/lib/cmake/CURL/CURLConfig.cmake
+F:/code/3rdparty/curl-7.70.0/install/lib/cmake/CURL/CURLConfigVersion.cmake
+F:/code/3rdparty/curl-7.70.0/install/lib/cmake/CURL/CURLTargets-debug.cmake
+F:/code/3rdparty/curl-7.70.0/install/lib/cmake/CURL/CURLTargets-release.cmake
+F:/code/3rdparty/curl-7.70.0/install/lib/cmake/CURL/CURLTargets.cmake

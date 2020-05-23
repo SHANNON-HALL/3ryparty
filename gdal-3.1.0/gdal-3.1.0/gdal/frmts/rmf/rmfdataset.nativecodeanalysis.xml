@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>RMFRasterBand::IReadBlock</FUNCTION>
+    <DECORATED>?IReadBlock@RMFRasterBand@@UEAA?AW4CPLErr@@HHPEAX@Z</DECORATED>
+    <FUNCLINE>158</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(5) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>RMFRasterBand::IReadBlock</FUNCTION>
+    <DECORATED>?IReadBlock@RMFRasterBand@@UEAA?AW4CPLErr@@HHPEAX@Z</DECORATED>
+    <FUNCLINE>158</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>RMFRasterBand::IReadBlock</FUNCTION>
+    <DECORATED>?IReadBlock@RMFRasterBand@@UEAA?AW4CPLErr@@HHPEAX@Z</DECORATED>
+    <FUNCLINE>158</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(5) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>RMFRasterBand::IReadBlock</FUNCTION>
+    <DECORATED>?IReadBlock@RMFRasterBand@@UEAA?AW4CPLErr@@HHPEAX@Z</DECORATED>
+    <FUNCLINE>158</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>1361</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(3) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>RMFDataset::Open</FUNCTION>
+    <DECORATED>?Open@RMFDataset@@SAPEAVGDALDataset@@PEAVGDALOpenInfo@@PEAV1@_K@Z</DECORATED>
+    <FUNCLINE>1097</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>1787</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned char”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“snprintf”。</DESCRIPTION>
+    <FUNCTION>RMFDataset::Open</FUNCTION>
+    <DECORATED>?Open@RMFDataset@@SAPEAVGDALDataset@@PEAVGDALOpenInfo@@PEAV1@_K@Z</DECORATED>
+    <FUNCLINE>1097</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>1956</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(6) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>RMFDataset::Create</FUNCTION>
+    <DECORATED>?Create@RMFDataset@@SAPEAVGDALDataset@@PEBDHHHW4GDALDataType@@PEAPEADPEAV1@N@Z</DECORATED>
+    <FUNCLINE>1813</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>1965</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(3) 传递，但需要使用一些 signed 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>RMFDataset::Create</FUNCTION>
+    <DECORATED>?Create@RMFDataset@@SAPEAVGDALDataset@@PEBDHHHW4GDALDataType@@PEAPEADPEAV1@N@Z</DECORATED>
+    <FUNCLINE>1813</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>2001</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“unsigned int”作为 _Param_(4) 传递，但需要使用一些 signed 类型来调用“CPLError”。</DESCRIPTION>
+    <FUNCTION>RMFDataset::Create</FUNCTION>
+    <DECORATED>?Create@RMFDataset@@SAPEAVGDALDataset@@PEBDHHHW4GDALDataType@@PEAPEADPEAV1@N@Z</DECORATED>
+    <FUNCLINE>1813</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\rmf\</FILEPATH>
+      <FILENAME>rmfdataset.cpp</FILENAME>
+      <LINE>2704</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>符号不匹配: 已将“long”作为 _Param_(4) 传递，但需要使用一些 unsigned 类型来调用“CPLDebug”。</DESCRIPTION>
+    <FUNCTION>RMFDataset::InitCompressorData</FUNCTION>
+    <DECORATED>?InitCompressorData@RMFDataset@@QEAA?AW4CPLErr@@PEAPEAD@Z</DECORATED>
+    <FUNCLINE>2665</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

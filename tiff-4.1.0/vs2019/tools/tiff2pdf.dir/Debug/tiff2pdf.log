@@ -1,0 +1,41 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  tiff2pdf.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(713,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(719,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(723,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(727,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(731,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(735,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(778,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(1997,49): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(2453,54): warning C4244: “=”: 从“uint64”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(2533,54): warning C4244: “=”: 从“tsize_t”转换到“tstrip_t”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(2958,28): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(2964,10): warning C4244: “=”: 从“tmsize_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(4270,1): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(182): message : 参见“strerror”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(4274,1): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(506): message : 参见“localtime”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5503,52): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5508,52): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5513,52): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5521,53): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5525,53): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5536,53): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5541,54): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5546,55): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5560,54): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5574,54): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5589,55): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5606,55): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5612,54): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5629,54): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiff2pdf.c(5635,30): warning C4244: “=”: 从“tsize_t”转换到“uint32”，可能丢失数据
+  tiff2pdf.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Debug\tiff2pdf.exe

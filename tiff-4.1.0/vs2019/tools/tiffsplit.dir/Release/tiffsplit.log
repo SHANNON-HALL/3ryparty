@@ -1,0 +1,9 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  tiffsplit.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffsplit.c(66,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffsplit.c(79,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : 参见“strncpy”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffsplit.c(81,1): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(266): message : 参见“strncat”的声明
+  tiffsplit.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Release\tiffsplit.exe

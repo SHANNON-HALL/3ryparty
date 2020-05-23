@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\tiger\</FILEPATH>
+      <FILENAME>ogrtigerdatasource.cpp</FILENAME>
+      <LINE>439</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>OGRTigerDataSource::Open</FUNCTION>
+    <DECORATED>?Open@OGRTigerDataSource@@QEAAHPEBDHPEAPEAD@Z</DECORATED>
+    <FUNCLINE>291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\tiger\</FILEPATH>
+      <FILENAME>ogrtigerdatasource.cpp</FILENAME>
+      <LINE>439</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>OGRTigerDataSource::Open</FUNCTION>
+    <DECORATED>?Open@OGRTigerDataSource@@QEAAHPEBDHPEAPEAD@Z</DECORATED>
+    <FUNCLINE>291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\tiger\</FILEPATH>
+      <FILENAME>ogrtigerdatasource.cpp</FILENAME>
+      <LINE>440</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>OGRTigerDataSource::Open</FUNCTION>
+    <DECORATED>?Open@OGRTigerDataSource@@QEAAHPEBDHPEAPEAD@Z</DECORATED>
+    <FUNCLINE>291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\tiger\</FILEPATH>
+      <FILENAME>ogrtigerdatasource.cpp</FILENAME>
+      <LINE>440</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>OGRTigerDataSource::Open</FUNCTION>
+    <DECORATED>?Open@OGRTigerDataSource@@QEAAHPEBDHPEAPEAD@Z</DECORATED>
+    <FUNCLINE>291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

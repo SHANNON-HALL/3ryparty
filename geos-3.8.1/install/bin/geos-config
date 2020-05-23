@@ -1,0 +1,76 @@
+#!/bin/sh
+
+prefix=F:/code/3rdparty/geos-3.8.1/install
+exec_prefix=F:/code/3rdparty/geos-3.8.1/install/bin
+libdir=F:/code/3rdparty/geos-3.8.1/install/lib
+
+usage()
+{
+    cat <<EOF
+Usage: geos-config [OPTIONS]
+Options:
+     [--prefix]
+     [--version]
+     [--libs]
+     [--clibs]
+     [--cclibs]
+     [--static-clibs]
+     [--static-cclibs]
+     [--cflags]
+     [--ldflags]
+     [--includes]
+     [--jtsport]
+EOF
+    exit $1
+}
+
+if test $# -eq 0; then
+  usage 1 1>&2
+fi
+
+while test $# -gt 0; do
+case "$1" in
+    -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+    *) optarg= ;;
+esac
+case $1 in
+    --prefix)
+      echo F:/code/3rdparty/geos-3.8.1/install
+      ;;
+    --version)
+      echo 3.8.1
+      ;;
+    --cflags)
+      echo -IF:/code/3rdparty/geos-3.8.1/install/include
+      ;;
+    --libs)
+      echo -LF:/code/3rdparty/geos-3.8.1/install/lib -lgeos-3
+      ;;
+    --clibs)
+      echo -LF:/code/3rdparty/geos-3.8.1/install/lib -lgeos_c
+      ;;
+    --cclibs)
+      echo -LF:/code/3rdparty/geos-3.8.1/install/lib -lgeos
+      ;;
+    --static-clibs)
+      echo -LF:/code/3rdparty/geos-3.8.1/install/lib -lgeos_c -lgeos -lm
+      ;;
+    --static-cclibs)
+      echo -LF:/code/3rdparty/geos-3.8.1/install/lib -lgeos -lm
+      ;;
+    --ldflags)
+      echo -LF:/code/3rdparty/geos-3.8.1/install/lib 
+      ;;
+    --includes)
+      echo F:/code/3rdparty/geos-3.8.1/install/include
+      ;;
+    --jtsport)
+    echo 1.13.0
+      ;;
+    *)
+      usage 1 1>&2
+      ;;
+  esac
+  shift
+done
+

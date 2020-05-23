@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03FC1D1E-15A9-357C-8E30-23C8EAE59F5A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>proj</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\PROJ\vs2019\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">proj.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">proj_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\PROJ\vs2019\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">proj.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">proj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\PROJ\vs2019\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">proj.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">proj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\PROJ\vs2019\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">proj.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">proj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4706;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB="F:/code/3rdparty/PROJ/install/share/proj";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB=\"F:/code/3rdparty/PROJ/install/share/proj\";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>F:\code\3rdparty\curl-7.70.0\install\lib\libcurl-d_imp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4706;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB="F:/code/3rdparty/PROJ/install/share/proj";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB=\"F:/code/3rdparty/PROJ/install/share/proj\";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>F:\code\3rdparty\curl-7.70.0\install\lib\libcurl_imp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4706;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB="F:/code/3rdparty/PROJ/install/share/proj";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB=\"F:/code/3rdparty/PROJ/install/share/proj\";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4706;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB="F:/code/3rdparty/PROJ/install/share/proj";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;TIFF_ENABLED;CURL_ENABLED;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_LIB=\"F:/code/3rdparty/PROJ/install/share/proj\";TARGET_CLONES_FMA_ALLOWED;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code\3rdparty\PROJ\PROJ-master\src;F:\code\3rdparty\PROJ\PROJ-master\include;F:\code\3rdparty\PROJ\vs2019\src;F:\code\3rdparty\sqlite-3.32\install\include;F:\code\3rdparty\tiff-4.1.0\install\tiff\include;F:\code\3rdparty\curl-7.70.0\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\3rdparty\PROJ\PROJ-master\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cct.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cs2cs.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geod.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geodtest.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_gie.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_proj.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projinfo.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projsync.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\lib_proj.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\3rdparty\PROJ\vs2019\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cct.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cs2cs.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geod.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geodtest.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_gie.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_proj.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projinfo.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projsync.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\lib_proj.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\3rdparty\PROJ\vs2019\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cct.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cs2cs.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geod.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geodtest.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_gie.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_proj.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projinfo.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projsync.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\lib_proj.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\3rdparty\PROJ\vs2019\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/code/3rdparty/PROJ/PROJ-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/code/3rdparty/PROJ/PROJ-master -BF:/code/3rdparty/PROJ/vs2019 --check-stamp-file F:/code/3rdparty/PROJ/vs2019/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cct.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_cs2cs.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geod.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_geodtest.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_gie.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_proj.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projinfo.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\bin_projsync.cmake;F:\code\3rdparty\PROJ\PROJ-master\src\lib_proj.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\3rdparty\PROJ\vs2019\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\4D_api.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\aasincos.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\adjlon.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\auth.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\ctx.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\datum_set.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\datums.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\deriv.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\dmstor.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\ell_set.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\ellps.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\errno.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\factors.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\fileapi.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\fwd.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\gauss.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\geodesic.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\init.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\initcache.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\internal.cpp">
+      <ObjectFileName>$(IntDir)/internal.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\inv.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\list.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\log.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\malloc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\mlfn.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\msfn.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\mutex.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\param.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\phi2.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\pipeline.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\pj_list.h" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\pr_list.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj_internal.h" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj_mdist.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\qsfn.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\release.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\rtodms.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\strerrno.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\strtod.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transform.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\tsfn.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\units.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\utils.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt1_generated_parser.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt1_generated_parser.h" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt1_parser.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt1_parser.h" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt2_generated_parser.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt2_generated_parser.h" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt2_parser.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt2_parser.h" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt_parser.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\wkt_parser.hpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\zpoly1.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj_json_streaming_writer.hpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj_json_streaming_writer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\tracing.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\grids.hpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\grids.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\filemanager.hpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\filemanager.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\networkfilemanager.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\sqlite3_utils.hpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\sqlite3_utils.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\vs2019\src\proj_config.h" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\conversions\axisswap.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\conversions\cart.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\conversions\geoc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\conversions\geocent.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\conversions\noop.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\conversions\set.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\conversions\unitconvert.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\aeqd.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\adams.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\gnom.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\laea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\mod_ster.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\nsper.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\nzmg.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\ortho.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\stere.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\sterea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\aea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\bipc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\bonne.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eqdc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\isea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\ccon.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\imw_p.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\krovak.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\lcc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\poly.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\rpoly.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\sconics.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\rouss.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\cass.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\cc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\cea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eqc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\gall.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\labrd.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\lsat.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\misrsom.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\merc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\mill.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\ocea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\omerc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\somerc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\tcc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\tcea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\times.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\tmerc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\tobmerc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\airy.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\aitoff.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\august.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\bacon.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\bertin1953.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\chamb.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\hammer.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\lagrng.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\larr.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\lask.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\latlong.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\nicol.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\ob_tran.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\oea.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\tpeqd.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\vandg.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\vandg2.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\vandg4.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\wag7.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\lcca.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\geos.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\boggs.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\collg.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\comill.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\crast.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\denoy.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eck1.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eck2.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eck3.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eck4.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eck5.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\fahey.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\fouc_s.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\gins8.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\gstmerc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\gn_sinu.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\goode.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\igh.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\igh_o.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\hatano.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\loxim.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\mbt_fps.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\mbtfpp.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\mbtfpq.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\moll.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\nell.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\nell_h.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\patterson.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\putp2.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\putp3.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\putp4p.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\putp5.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\putp6.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\qsc.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\robin.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\sch.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\sts.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\urm5.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\urmfps.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\wag2.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\wag3.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\wink1.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\wink2.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\healpix.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\natearth.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\natearth2.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\calcofi.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\projections\eqearth.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\affine.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\deformation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\helmert.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\hgridshift.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\horner.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\molodensky.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\vgridshift.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\xyzgridshift.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\transformations\defmodel.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\static.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\util.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\metadata.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\common.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\crs.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\datum.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\coordinatesystem.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\coordinateoperation.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\io.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\internal.cpp">
+      <ObjectFileName>$(IntDir)/iso19111/internal.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\factory.cpp" />
+    <ClCompile Include="F:\code\3rdparty\PROJ\PROJ-master\src\iso19111\c_api.cpp" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj_api.h" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj.h" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj_experimental.h" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\proj_constants.h" />
+    <ClInclude Include="F:\code\3rdparty\PROJ\PROJ-master\src\geodesic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\code\3rdparty\PROJ\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{6099C37A-8C1C-378A-B186-73AFCC5BE56D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

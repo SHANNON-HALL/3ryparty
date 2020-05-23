@@ -1,0 +1,19 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  fax2ps.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(237,1): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h(476): message : 参见“ctime”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(333,23): warning C4013: “getopt”未定义；假设外部返回 int
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(409,45): warning C4244: “函数”: 从“intptr_t”转换到“int”，可能丢失数据
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(391,1): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(430): message : 参见“tmpfile”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(399,1): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(523): message : 参见“read”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(400,1): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_io.h(558): message : 参见“write”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(407,1): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2459): message : 参见“fileno”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(409,1): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2459): message : 参见“fileno”的声明
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\fax2ps.c(447,1): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(395): message : 参见“setbuf”的声明
+  fax2ps.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Debug\fax2ps.exe

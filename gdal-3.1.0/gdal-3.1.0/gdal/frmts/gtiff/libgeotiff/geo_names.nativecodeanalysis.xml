@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\gtiff\libgeotiff\</FILEPATH>
+      <FILENAME>geo_names.c</FILENAME>
+      <LINE>297</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>FindCode</FUNCTION>
+    <DECORATED>FindCode</DECORATED>
+    <FUNCLINE>287</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\gtiff\libgeotiff\</FILEPATH>
+      <FILENAME>geo_names.c</FILENAME>
+      <LINE>302</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>FindCode</FUNCTION>
+    <DECORATED>FindCode</DECORATED>
+    <FUNCLINE>287</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

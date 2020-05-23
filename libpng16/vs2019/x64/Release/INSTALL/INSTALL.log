@@ -1,0 +1,15 @@
+﻿  -- Install configuration: "Release"
+  -- Installing: F:/code/3rdparty/libpng16/install/lib/libpng16.lib
+  -- Installing: F:/code/3rdparty/libpng16/install/bin/libpng16.dll
+  -- Installing: F:/code/3rdparty/libpng16/install/lib/libpng16_static.lib
+  -- Installing: F:/code/3rdparty/libpng16/install/include/png.h
+  -- Installing: F:/code/3rdparty/libpng16/install/include/pngconf.h
+  -- Installing: F:/code/3rdparty/libpng16/install/include/pnglibconf.h
+  -- Installing: F:/code/3rdparty/libpng16/install/include/libpng16/png.h
+  -- Installing: F:/code/3rdparty/libpng16/install/include/libpng16/pngconf.h
+  -- Installing: F:/code/3rdparty/libpng16/install/include/libpng16/pnglibconf.h
+  -- Installing: F:/code/3rdparty/libpng16/install/share/man/man3/libpng.3
+  -- Installing: F:/code/3rdparty/libpng16/install/share/man/man3/libpngpf.3
+  -- Installing: F:/code/3rdparty/libpng16/install/share/man/man5/png.5
+  -- Installing: F:/code/3rdparty/libpng16/install/lib/libpng/libpng16.cmake
+  -- Installing: F:/code/3rdparty/libpng16/install/lib/libpng/libpng16-release.cmake

@@ -1,0 +1,10 @@
+F:/code/3rdparty/jbigkit-2.1/install/lib/libjbig.lib
+F:/code/3rdparty/jbigkit-2.1/install/include/jbig_ar.h
+F:/code/3rdparty/jbigkit-2.1/install/include/jbig.h
+F:/code/3rdparty/jbigkit-2.1/install/lib/libjbig85.lib
+F:/code/3rdparty/jbigkit-2.1/install/include/jbig_ar.h
+F:/code/3rdparty/jbigkit-2.1/install/include/jbig85.h
+F:/code/3rdparty/jbigkit-2.1/install/bin/pbmtojbg.exe
+F:/code/3rdparty/jbigkit-2.1/install/bin/pbmtojbg85.exe
+F:/code/3rdparty/jbigkit-2.1/install/bin/jbgtopbm.exe
+F:/code/3rdparty/jbigkit-2.1/install/bin/jbgtopbm85.exe

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule F:/code/3rdparty/geos-3.8.1/geos-3.8.1/benchmarks/operation/predicate/CMakeLists.txt
+  RectangleIntersectsPerfTest.cpp
+  perf_rectangle_intersects.vcxproj -> F:\code\3rdparty\geos-3.8.1\vs2019\bin\Release\perf_rectangle_intersects.exe

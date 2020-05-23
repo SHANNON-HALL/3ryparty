@@ -1,0 +1,50 @@
+﻿生成启动时间为 2019/3/18 星期一 上午 9:30:12。
+     1>项目“E:\Qt projects\libpng\lpng1621\projects\vstudio\libpng\libpng.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Vs\vs2013\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /Zi /nologo /W4 /WX /Ox /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yc"pngpriv.h" /Fp"x64\Release\libpng16.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TC /wd4996 /wd4127 /errorReport:prompt ..\..\..\png.c
+         png.c
+         E:\Vs\vs2013\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /Zi /nologo /W4 /WX /Ox /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yu"pngpriv.h" /Fp"x64\Release\libpng16.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TC /wd4996 /wd4127 /errorReport:prompt ..\..\..\pngerror.c ..\..\..\pngget.c ..\..\..\pngmem.c ..\..\..\pngpread.c ..\..\..\pngread.c ..\..\..\pngrio.c ..\..\..\pngrtran.c ..\..\..\pngrutil.c ..\..\..\pngset.c ..\..\..\pngtrans.c ..\..\..\pngwio.c ..\..\..\pngwrite.c ..\..\..\pngwtran.c ..\..\..\pngwutil.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Release\pngwin.res" ..\..\..\scripts\pngwin.rc 
+       Link:
+         E:\Vs\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\libpng16.dll" /VERSION:"16" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\\" zlib.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\libpng16.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\libpng16.lib" /MACHINE:X64 /DLL x64\Release\pngwin.res
+         x64\Release\png.obj
+         x64\Release\pngerror.obj
+         x64\Release\pngget.obj
+         x64\Release\pngmem.obj
+         x64\Release\pngpread.obj
+         x64\Release\pngread.obj
+         x64\Release\pngrio.obj
+         x64\Release\pngrtran.obj
+         x64\Release\pngrutil.obj
+         x64\Release\pngset.obj
+         x64\Release\pngtrans.obj
+         x64\Release\pngwio.obj
+         x64\Release\pngwrite.obj
+         x64\Release\pngwtran.obj
+         x64\Release\pngwutil.obj
+            正在创建库 E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\libpng16.lib 和对象 E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\libpng16.exp
+         正在生成代码
+         已完成代码的生成
+         libpng.vcxproj -> E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\libpng16.dll
+       BscMake:
+         E:\Vs\vs2013\VC\bin\bscmake.exe /nologo /o"E:\Qt projects\libpng\lpng1621\projects\vstudio\x64\Release\libpng16.bsc" x64\Release\png.sbr x64\Release\pngerror.sbr x64\Release\pngget.sbr x64\Release\pngmem.sbr x64\Release\pngpread.sbr x64\Release\pngread.sbr x64\Release\pngrio.sbr x64\Release\pngrtran.sbr x64\Release\pngrutil.sbr x64\Release\pngset.sbr x64\Release\pngtrans.sbr x64\Release\pngwio.sbr x64\Release\pngwrite.sbr x64\Release\pngwtran.sbr x64\Release\pngwutil.sbr
+     1>已完成生成项目“E:\Qt projects\libpng\lpng1621\projects\vstudio\libpng\libpng.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.08

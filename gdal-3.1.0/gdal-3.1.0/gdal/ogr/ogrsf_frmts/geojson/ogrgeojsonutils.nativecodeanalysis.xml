@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsonutils.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>IsTypeSomething</FUNCTION>
+    <DECORATED>?IsTypeSomething@@YA_NPEBD0@Z</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\</FILEPATH>
+      <FILENAME>ogrgeojsonutils.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>IsTypeSomething</FUNCTION>
+    <DECORATED>?IsTypeSomething@@YA_NPEBD0@Z</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

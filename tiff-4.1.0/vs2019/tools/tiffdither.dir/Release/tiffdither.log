@@ -1,0 +1,6 @@
+﻿  Building Custom Rule F:/code/3rdparty/tiff-4.1.0/tiff-4.1.0/tools/CMakeLists.txt
+  tiffdither.c
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdither.c(216,20): warning C4013: “getopt”未定义；假设外部返回 int
+F:\code\3rdparty\tiff-4.1.0\tiff-4.1.0\tools\tiffdither.c(331,1): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(395): message : 参见“setbuf”的声明
+  tiffdither.vcxproj -> F:\code\3rdparty\tiff-4.1.0\vs2019\tools\Release\tiffdither.exe

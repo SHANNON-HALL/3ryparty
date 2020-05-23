@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_conv.cpp</FILENAME>
+      <LINE>1129</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>CPLScanPointer</FUNCTION>
+    <DECORATED>CPLScanPointer</DECORATED>
+    <FUNCLINE>1106</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_conv.cpp</FILENAME>
+      <LINE>2076</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isgraph”。</DESCRIPTION>
+    <FUNCTION>CPLDMSToDec</FUNCTION>
+    <DECORATED>CPLDMSToDec</DECORATED>
+    <FUNCLINE>2063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\port\</FILEPATH>
+      <FILENAME>cpl_conv.cpp</FILENAME>
+      <LINE>2092</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isdigit”。</DESCRIPTION>
+    <FUNCTION>CPLDMSToDec</FUNCTION>
+    <DECORATED>CPLDMSToDec</DECORATED>
+    <FUNCLINE>2063</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

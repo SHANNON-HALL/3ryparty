@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 open 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_from_file</FUNCTION>
+    <DECORATED>gdal_json_object_from_file</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 close 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_from_file</FUNCTION>
+    <DECORATED>gdal_json_object_from_file</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 read 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_from_file</FUNCTION>
+    <DECORATED>gdal_json_object_from_file</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 close 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_from_file</FUNCTION>
+    <DECORATED>gdal_json_object_from_file</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 open 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_to_file_ext</FUNCTION>
+    <DECORATED>gdal_json_object_to_file_ext</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 close 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_to_file_ext</FUNCTION>
+    <DECORATED>gdal_json_object_to_file_ext</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 close 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_to_file_ext</FUNCTION>
+    <DECORATED>gdal_json_object_to_file_ext</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>124</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 write 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_to_file_ext</FUNCTION>
+    <DECORATED>gdal_json_object_to_file_ext</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\ogr\ogrsf_frmts\geojson\libjson\</FILEPATH>
+      <FILENAME>json_util.c</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28278</DEFECTCODE>
+    <DESCRIPTION>出现的函数 close 不带有范围内的任何原型。 只能执行受限分析。包括相应的标头或添加原型。如果函数定义中省略了参数或返回类型，则也将出现此警告。</DESCRIPTION>
+    <FUNCTION>gdal_json_object_to_file_ext</FUNCTION>
+    <DECORATED>gdal_json_object_to_file_ext</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,5 @@
+正常cmake注意astyle工程可能会报错，因为字符的原因，我的报在了ASLocalizer.cpp的第459行，等。只需要使用nodepad++编码->转为ANSI编码保存即可。
+
+因为debug和release输出的文件名一样，注意编译完成将debug的结果手动加D拷进install即可。
+
+生成的结果geos_c是C语言接口的geos。

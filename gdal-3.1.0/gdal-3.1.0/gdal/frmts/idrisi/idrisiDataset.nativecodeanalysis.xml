@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\idrisi\</FILEPATH>
+      <FILENAME>idrisiDataset.cpp</FILENAME>
+      <LINE>919</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>IdrisiDataset::Open</FUNCTION>
+    <DECORATED>?Open@IdrisiDataset@@SAPEAVGDALDataset@@PEAVGDALOpenInfo@@@Z</DECORATED>
+    <FUNCLINE>681</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\idrisi\</FILEPATH>
+      <FILENAME>idrisiDataset.cpp</FILENAME>
+      <LINE>929</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>IdrisiDataset::Open</FUNCTION>
+    <DECORATED>?Open@IdrisiDataset@@SAPEAVGDALDataset@@PEAVGDALOpenInfo@@@Z</DECORATED>
+    <FUNCLINE>681</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\idrisi\</FILEPATH>
+      <FILENAME>idrisiDataset.cpp</FILENAME>
+      <LINE>2470</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>IdrisiGeoReference2Wkt</FUNCTION>
+    <DECORATED>?IdrisiGeoReference2Wkt@@YA?AW4CPLErr@@PEBD00PEAPEAD@Z</DECORATED>
+    <FUNCLINE>2416</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\idrisi\</FILEPATH>
+      <FILENAME>idrisiDataset.cpp</FILENAME>
+      <LINE>2487</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “sscanf”。</DESCRIPTION>
+    <FUNCTION>IdrisiGeoReference2Wkt</FUNCTION>
+    <DECORATED>?IdrisiGeoReference2Wkt@@YA?AW4CPLErr@@PEBD00PEAPEAD@Z</DECORATED>
+    <FUNCLINE>2416</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

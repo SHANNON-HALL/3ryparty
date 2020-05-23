@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskgeoref.cpp</FILENAME>
+      <LINE>425</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKGeoref::ReformatGeosys</FUNCTION>
+    <DECORATED>?ReformatGeosys@CPCIDSKGeoref@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskgeoref.cpp</FILENAME>
+      <LINE>444</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKGeoref::ReformatGeosys</FUNCTION>
+    <DECORATED>?ReformatGeosys@CPCIDSKGeoref@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskgeoref.cpp</FILENAME>
+      <LINE>477</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKGeoref::ReformatGeosys</FUNCTION>
+    <DECORATED>?ReformatGeosys@CPCIDSKGeoref@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskgeoref.cpp</FILENAME>
+      <LINE>482</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKGeoref::ReformatGeosys</FUNCTION>
+    <DECORATED>?ReformatGeosys@CPCIDSKGeoref@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskgeoref.cpp</FILENAME>
+      <LINE>483</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isalpha”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKGeoref::ReformatGeosys</FUNCTION>
+    <DECORATED>?ReformatGeosys@CPCIDSKGeoref@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskgeoref.cpp</FILENAME>
+      <LINE>537</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKGeoref::ReformatGeosys</FUNCTION>
+    <DECORATED>?ReformatGeosys@CPCIDSKGeoref@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\code\3rdparty\gdal-3.1.0\gdal-3.1.0\gdal\frmts\pcidsk\sdk\segment\</FILEPATH>
+      <FILENAME>cpcidskgeoref.cpp</FILENAME>
+      <LINE>700</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>已将“const char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。</DESCRIPTION>
+    <FUNCTION>PCIDSK::CPCIDSKGeoref::ReformatGeosys</FUNCTION>
+    <DECORATED>?ReformatGeosys@CPCIDSKGeoref@PCIDSK@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z</DECORATED>
+    <FUNCLINE>399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

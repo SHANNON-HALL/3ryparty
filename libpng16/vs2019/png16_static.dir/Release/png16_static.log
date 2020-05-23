@@ -1,0 +1,18 @@
+﻿  Building Custom Rule F:/code/3rdparty/libpng16/libpng16/CMakeLists.txt
+  png.c
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+  pngread.c
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+  pngwtran.c
+  pngwutil.c
+  正在生成代码...
+  png16_static.vcxproj -> F:\code\3rdparty\libpng16\vs2019\Release\libpng16_static.lib
