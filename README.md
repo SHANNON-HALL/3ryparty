@@ -1,2 +1,2 @@
 # 3ryparty
-some 3ryparty, you can use them when you use osg or other engine
+一些第三方库，可以在对应的VS版本的install中找到所有的第三方库，也可以分别的找对应的目录的分离的各个库。
